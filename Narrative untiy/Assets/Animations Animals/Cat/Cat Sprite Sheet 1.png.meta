@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: fec8942becd42344caa302355b5a1b99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3198140239955184818
+    second: Cat Sprite Sheet_0
+  - first:
+      213: -8085384773888515154
+    second: Cat Sprite Sheet_1
+  - first:
+      213: 6282326846927389365
+    second: Cat Sprite Sheet_2
+  - first:
+      213: -6437927897301180868
+    second: Cat Sprite Sheet_3
+  - first:
+      213: -8702673786516951703
+    second: Cat Sprite Sheet_4
+  - first:
+      213: 2669269832124305743
+    second: Cat Sprite Sheet_5
+  - first:
+      213: 4748047949264886948
+    second: Cat Sprite Sheet_6
+  - first:
+      213: -3907154008418009956
+    second: Cat Sprite Sheet_7
+  - first:
+      213: 8507631493772405997
+    second: Cat Sprite Sheet_8
+  - first:
+      213: -7104921894174400132
+    second: Cat Sprite Sheet_9
+  - first:
+      213: -3888352909816150408
+    second: Cat Sprite Sheet_10
+  - first:
+      213: 7450207527434579333
+    second: Cat Sprite Sheet_11
+  - first:
+      213: 8050233002413941646
+    second: Cat Sprite Sheet_12
+  - first:
+      213: 3289041812342118043
+    second: Cat Sprite Sheet_13
+  - first:
+      213: -6595367500878952511
+    second: Cat Sprite Sheet_14
+  - first:
+      213: -9144848080983089650
+    second: Cat Sprite Sheet_15
+  - first:
+      213: -1408798032432352212
+    second: Cat Sprite Sheet_16
+  - first:
+      213: -3528275718265825544
+    second: Cat Sprite Sheet_17
+  - first:
+      213: -5110674633185309647
+    second: Cat Sprite Sheet_18
+  - first:
+      213: 1428215614168023522
+    second: Cat Sprite Sheet_19
+  - first:
+      213: 3327643029633520697
+    second: Cat Sprite Sheet_20
+  - first:
+      213: 7333676382177285828
+    second: Cat Sprite Sheet_21
+  - first:
+      213: -592993871429678768
+    second: Cat Sprite Sheet_22
+  - first:
+      213: -8311230521970091932
+    second: Cat Sprite Sheet_23
+  - first:
+      213: 8486714019107364788
+    second: Cat Sprite Sheet_24
+  - first:
+      213: -8161704744239798542
+    second: Cat Sprite Sheet_25
+  - first:
+      213: 611221425998631066
+    second: Cat Sprite Sheet_26
+  - first:
+      213: -5498216522746989160
+    second: Cat Sprite Sheet_27
+  - first:
+      213: -5053961224300211373
+    second: Cat Sprite Sheet_28
+  - first:
+      213: 7598092394284224815
+    second: Cat Sprite Sheet_29
+  - first:
+      213: 7779085144320578648
+    second: Cat Sprite Sheet_30
+  - first:
+      213: -8709218237352638851
+    second: Cat Sprite Sheet_31
+  - first:
+      213: 7182833592514294589
+    second: Cat Sprite Sheet_32
+  - first:
+      213: 2969811185128236925
+    second: Cat Sprite Sheet_33
+  - first:
+      213: -4758450684842444477
+    second: Cat Sprite Sheet_34
+  - first:
+      213: 5070133247318779169
+    second: Cat Sprite Sheet_35
+  - first:
+      213: 5756153314569076167
+    second: Cat Sprite Sheet_36
+  - first:
+      213: -6012808888001900979
+    second: Cat Sprite Sheet_37
+  - first:
+      213: 1441103157980892224
+    second: Cat Sprite Sheet_38
+  - first:
+      213: 4563024441958302133
+    second: Cat Sprite Sheet_39
+  - first:
+      213: 8403083037463770565
+    second: Cat Sprite Sheet_40
+  - first:
+      213: -8321172614765455077
+    second: Cat Sprite Sheet_41
+  - first:
+      213: 3871994490110405232
+    second: Cat Sprite Sheet_42
+  - first:
+      213: 1876488844864328612
+    second: Cat Sprite Sheet_43
+  - first:
+      213: -2870838284671053672
+    second: Cat Sprite Sheet_44
+  - first:
+      213: -6837826957344662761
+    second: Cat Sprite Sheet_45
+  - first:
+      213: -5403693413797492465
+    second: Cat Sprite Sheet_46
+  - first:
+      213: 8270731063546895492
+    second: Cat Sprite Sheet_47
+  - first:
+      213: 2791782086311984391
+    second: Cat Sprite Sheet_48
+  - first:
+      213: -2725485676893061207
+    second: Cat Sprite Sheet_49
+  - first:
+      213: -6088386225155938815
+    second: Cat Sprite Sheet_50
+  - first:
+      213: -5749665743892246755
+    second: Cat Sprite Sheet_51
+  - first:
+      213: 3724745331111355787
+    second: Cat Sprite Sheet_52
+  - first:
+      213: -5470452649037817428
+    second: Cat Sprite Sheet_53
+  - first:
+      213: -6919130230713360175
+    second: Cat Sprite Sheet_54
+  - first:
+      213: 7054820072204141231
+    second: Cat Sprite Sheet_55
+  - first:
+      213: -3083229853440418552
+    second: Cat Sprite Sheet_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cat Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 288
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43b69f656ced93d0800000000000000
+      internalID: -3198140239955184818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 395d21565de4d0b40aa8e39b632707e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cat Sprite Sheet 1_0: 1215647851
+      Cat Sprite Sheet_0: -3198140239955184818
+      Cat Sprite Sheet_1: -8085384773888515154
+      Cat Sprite Sheet_10: -3888352909816150408
+      Cat Sprite Sheet_11: 7450207527434579333
+      Cat Sprite Sheet_12: 8050233002413941646
+      Cat Sprite Sheet_13: 3289041812342118043
+      Cat Sprite Sheet_14: -6595367500878952511
+      Cat Sprite Sheet_15: -9144848080983089650
+      Cat Sprite Sheet_16: -1408798032432352212
+      Cat Sprite Sheet_17: -3528275718265825544
+      Cat Sprite Sheet_18: -5110674633185309647
+      Cat Sprite Sheet_19: 1428215614168023522
+      Cat Sprite Sheet_2: 6282326846927389365
+      Cat Sprite Sheet_20: 3327643029633520697
+      Cat Sprite Sheet_21: 7333676382177285828
+      Cat Sprite Sheet_22: -592993871429678768
+      Cat Sprite Sheet_23: -8311230521970091932
+      Cat Sprite Sheet_24: 8486714019107364788
+      Cat Sprite Sheet_25: -8161704744239798542
+      Cat Sprite Sheet_26: 611221425998631066
+      Cat Sprite Sheet_27: -5498216522746989160
+      Cat Sprite Sheet_28: -5053961224300211373
+      Cat Sprite Sheet_29: 7598092394284224815
+      Cat Sprite Sheet_3: -6437927897301180868
+      Cat Sprite Sheet_30: 7779085144320578648
+      Cat Sprite Sheet_31: -8709218237352638851
+      Cat Sprite Sheet_32: 7182833592514294589
+      Cat Sprite Sheet_33: 2969811185128236925
+      Cat Sprite Sheet_34: -4758450684842444477
+      Cat Sprite Sheet_35: 5070133247318779169
+      Cat Sprite Sheet_36: 5756153314569076167
+      Cat Sprite Sheet_37: -6012808888001900979
+      Cat Sprite Sheet_38: 1441103157980892224
+      Cat Sprite Sheet_39: 4563024441958302133
+      Cat Sprite Sheet_4: -8702673786516951703
+      Cat Sprite Sheet_40: 8403083037463770565
+      Cat Sprite Sheet_41: -8321172614765455077
+      Cat Sprite Sheet_42: 3871994490110405232
+      Cat Sprite Sheet_43: 1876488844864328612
+      Cat Sprite Sheet_44: -2870838284671053672
+      Cat Sprite Sheet_45: -6837826957344662761
+      Cat Sprite Sheet_46: -5403693413797492465
+      Cat Sprite Sheet_47: 8270731063546895492
+      Cat Sprite Sheet_48: 2791782086311984391
+      Cat Sprite Sheet_49: -2725485676893061207
+      Cat Sprite Sheet_5: 2669269832124305743
+      Cat Sprite Sheet_50: -6088386225155938815
+      Cat Sprite Sheet_51: -5749665743892246755
+      Cat Sprite Sheet_52: 3724745331111355787
+      Cat Sprite Sheet_53: -5470452649037817428
+      Cat Sprite Sheet_54: -6919130230713360175
+      Cat Sprite Sheet_55: 7054820072204141231
+      Cat Sprite Sheet_56: -3083229853440418552
+      Cat Sprite Sheet_57: -1072927530
+      Cat Sprite Sheet_58: 446631387
+      Cat Sprite Sheet_59: 1903963161
+      Cat Sprite Sheet_6: 4748047949264886948
+      Cat Sprite Sheet_60: 2108113401
+      Cat Sprite Sheet_61: -856558978
+      Cat Sprite Sheet_62: -2109085164
+      Cat Sprite Sheet_7: -3907154008418009956
+      Cat Sprite Sheet_8: 8507631493772405997
+      Cat Sprite Sheet_9: -7104921894174400132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
