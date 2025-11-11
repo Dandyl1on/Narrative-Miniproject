@@ -1,0 +1,5577 @@
+fileFormatVersion: 2
+guid: 29459a549b1a8444c98f1b4b6914ca26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8211109606804349910
+    second: Gandalf the Grey_0
+  - first:
+      213: 1514592785828257174
+    second: Gandalf the Grey_1
+  - first:
+      213: 7780937998588055247
+    second: Gandalf the Grey_2
+  - first:
+      213: 2378601410508225189
+    second: Gandalf the Grey_3
+  - first:
+      213: 3900421727793614441
+    second: Gandalf the Grey_4
+  - first:
+      213: 7256338261558445369
+    second: Gandalf the Grey_5
+  - first:
+      213: -4109494465571965352
+    second: Gandalf the Grey_6
+  - first:
+      213: 7394694394340890302
+    second: Gandalf the Grey_7
+  - first:
+      213: -330551520075059894
+    second: Gandalf the Grey_8
+  - first:
+      213: 5488816072467674893
+    second: Gandalf the Grey_9
+  - first:
+      213: 451788062074219447
+    second: Gandalf the Grey_10
+  - first:
+      213: 4370040742317398160
+    second: Gandalf the Grey_11
+  - first:
+      213: -7751805356450730001
+    second: Gandalf the Grey_12
+  - first:
+      213: -3620052440445310237
+    second: Gandalf the Grey_13
+  - first:
+      213: -3117452167829061692
+    second: Gandalf the Grey_14
+  - first:
+      213: -4028412450440192734
+    second: Gandalf the Grey_15
+  - first:
+      213: 3542489668968128732
+    second: Gandalf the Grey_16
+  - first:
+      213: -954412357427232898
+    second: Gandalf the Grey_17
+  - first:
+      213: -7031783894195126525
+    second: Gandalf the Grey_18
+  - first:
+      213: 3866684079090092309
+    second: Gandalf the Grey_19
+  - first:
+      213: -8661433510896272687
+    second: Gandalf the Grey_20
+  - first:
+      213: -6852131146140378911
+    second: Gandalf the Grey_21
+  - first:
+      213: 4299330265357051547
+    second: Gandalf the Grey_22
+  - first:
+      213: 3952239520981882163
+    second: Gandalf the Grey_23
+  - first:
+      213: -817561699128436068
+    second: Gandalf the Grey_24
+  - first:
+      213: 2145972489278683354
+    second: Gandalf the Grey_25
+  - first:
+      213: 6988389283727392447
+    second: Gandalf the Grey_26
+  - first:
+      213: 3943347301799790076
+    second: Gandalf the Grey_27
+  - first:
+      213: 3148474042425357615
+    second: Gandalf the Grey_28
+  - first:
+      213: -7018374449191798564
+    second: Gandalf the Grey_29
+  - first:
+      213: -4595235240255127780
+    second: Gandalf the Grey_30
+  - first:
+      213: 3710678779165818460
+    second: Gandalf the Grey_31
+  - first:
+      213: 3749246986912352596
+    second: Gandalf the Grey_32
+  - first:
+      213: 7124627769183787229
+    second: Gandalf the Grey_33
+  - first:
+      213: -8457972338284071043
+    second: Gandalf the Grey_34
+  - first:
+      213: 2988644292202974815
+    second: Gandalf the Grey_35
+  - first:
+      213: 3309249955991312024
+    second: Gandalf the Grey_36
+  - first:
+      213: -4237999662414245217
+    second: Gandalf the Grey_37
+  - first:
+      213: -1687150084312809806
+    second: Gandalf the Grey_38
+  - first:
+      213: -7110324619838725613
+    second: Gandalf the Grey_39
+  - first:
+      213: 604938800134266703
+    second: Gandalf the Grey_40
+  - first:
+      213: 4382486128796613891
+    second: Gandalf the Grey_41
+  - first:
+      213: -9065576165489976986
+    second: Gandalf the Grey_42
+  - first:
+      213: -6535076510138336689
+    second: Gandalf the Grey_43
+  - first:
+      213: -2355847311532851542
+    second: Gandalf the Grey_44
+  - first:
+      213: 8201585620446682725
+    second: Gandalf the Grey_45
+  - first:
+      213: 7276937240181205022
+    second: Gandalf the Grey_46
+  - first:
+      213: 4818868140927663419
+    second: Gandalf the Grey_47
+  - first:
+      213: 5067837527903996541
+    second: Gandalf the Grey_48
+  - first:
+      213: 5108408000675016725
+    second: Gandalf the Grey_49
+  - first:
+      213: -7015662646000684171
+    second: Gandalf the Grey_50
+  - first:
+      213: -8817186646606074316
+    second: Gandalf the Grey_51
+  - first:
+      213: -8276945099033491081
+    second: Gandalf the Grey_52
+  - first:
+      213: 680157890586569123
+    second: Gandalf the Grey_53
+  - first:
+      213: 3699037087107576342
+    second: Gandalf the Grey_54
+  - first:
+      213: -7502741774502347891
+    second: Gandalf the Grey_55
+  - first:
+      213: 6327518892261856665
+    second: Gandalf the Grey_56
+  - first:
+      213: -6902273355555953084
+    second: Gandalf the Grey_57
+  - first:
+      213: 7428606970882613323
+    second: Gandalf the Grey_58
+  - first:
+      213: 7651333622593693794
+    second: Gandalf the Grey_59
+  - first:
+      213: -8636884545669408474
+    second: Gandalf the Grey_60
+  - first:
+      213: -687014970817118525
+    second: Gandalf the Grey_61
+  - first:
+      213: 9150047700853482499
+    second: Gandalf the Grey_62
+  - first:
+      213: -5965157784325171705
+    second: Gandalf the Grey_63
+  - first:
+      213: -2365267301644487774
+    second: Gandalf the Grey_64
+  - first:
+      213: -9002890249783573297
+    second: Gandalf the Grey_65
+  - first:
+      213: 1260514717545296136
+    second: Gandalf the Grey_66
+  - first:
+      213: 8330725591990792339
+    second: Gandalf the Grey_67
+  - first:
+      213: -729941384059193900
+    second: Gandalf the Grey_68
+  - first:
+      213: 6633045564531489149
+    second: Gandalf the Grey_69
+  - first:
+      213: 1006368076878548361
+    second: Gandalf the Grey_70
+  - first:
+      213: 7324499842514848983
+    second: Gandalf the Grey_71
+  - first:
+      213: 803047267309858998
+    second: Gandalf the Grey_72
+  - first:
+      213: -7349221806027948185
+    second: Gandalf the Grey_73
+  - first:
+      213: -8583797611831932752
+    second: Gandalf the Grey_74
+  - first:
+      213: 3421128753784674164
+    second: Gandalf the Grey_75
+  - first:
+      213: 345423891161150131
+    second: Gandalf the Grey_76
+  - first:
+      213: 3141585224319212347
+    second: Gandalf the Grey_77
+  - first:
+      213: 796645724827954078
+    second: Gandalf the Grey_78
+  - first:
+      213: 5960289135203741033
+    second: Gandalf the Grey_79
+  - first:
+      213: -639329536217214442
+    second: Gandalf the Grey_80
+  - first:
+      213: -4253017323815557958
+    second: Gandalf the Grey_81
+  - first:
+      213: -6853041730846817668
+    second: Gandalf the Grey_82
+  - first:
+      213: -2268002790671170362
+    second: Gandalf the Grey_83
+  - first:
+      213: 2511043863254507089
+    second: Gandalf the Grey_84
+  - first:
+      213: -7016723164842065044
+    second: Gandalf the Grey_85
+  - first:
+      213: 976010412830680612
+    second: Gandalf the Grey_86
+  - first:
+      213: 1239997534562665344
+    second: Gandalf the Grey_87
+  - first:
+      213: 8087744321753131655
+    second: Gandalf the Grey_88
+  - first:
+      213: -2882019086987814327
+    second: Gandalf the Grey_89
+  - first:
+      213: -799738976508535614
+    second: Gandalf the Grey_90
+  - first:
+      213: -8006015619213216549
+    second: Gandalf the Grey_91
+  - first:
+      213: 6148184502578840200
+    second: Gandalf the Grey_92
+  - first:
+      213: 7095976468047597839
+    second: Gandalf the Grey_93
+  - first:
+      213: -933066490412663214
+    second: Gandalf the Grey_94
+  - first:
+      213: -8957790745886809011
+    second: Gandalf the Grey_95
+  - first:
+      213: -146630620037681664
+    second: Gandalf the Grey_96
+  - first:
+      213: -2130897784411821459
+    second: Gandalf the Grey_97
+  - first:
+      213: -7728937395755687603
+    second: Gandalf the Grey_98
+  - first:
+      213: 189352429949315766
+    second: Gandalf the Grey_99
+  - first:
+      213: -1738996443956042911
+    second: Gandalf the Grey_100
+  - first:
+      213: 4047612434447694187
+    second: Gandalf the Grey_101
+  - first:
+      213: 1011457477524227337
+    second: Gandalf the Grey_102
+  - first:
+      213: -125170131666185533
+    second: Gandalf the Grey_103
+  - first:
+      213: -8908579541619926221
+    second: Gandalf the Grey_104
+  - first:
+      213: 3705372378792961421
+    second: Gandalf the Grey_105
+  - first:
+      213: -1021105414738521548
+    second: Gandalf the Grey_106
+  - first:
+      213: -2871163926991912299
+    second: Gandalf the Grey_107
+  - first:
+      213: 7103480449981212031
+    second: Gandalf the Grey_108
+  - first:
+      213: -4741963272403626666
+    second: Gandalf the Grey_109
+  - first:
+      213: -2049226315192508051
+    second: Gandalf the Grey_110
+  - first:
+      213: 1047593244806383835
+    second: Gandalf the Grey_111
+  - first:
+      213: 3722453497571348599
+    second: Gandalf the Grey_112
+  - first:
+      213: 9035089677111674438
+    second: Gandalf the Grey_113
+  - first:
+      213: -4878340357575224992
+    second: Gandalf the Grey_114
+  - first:
+      213: 4479689802086288814
+    second: Gandalf the Grey_115
+  - first:
+      213: 5324828407956112551
+    second: Gandalf the Grey_116
+  - first:
+      213: -8653769705544503948
+    second: Gandalf the Grey_117
+  - first:
+      213: -1298849472464444238
+    second: Gandalf the Grey_118
+  - first:
+      213: -2686507635570757385
+    second: Gandalf the Grey_119
+  - first:
+      213: 2622809603134142326
+    second: Gandalf the Grey_120
+  - first:
+      213: -6692796293702307643
+    second: Gandalf the Grey_121
+  - first:
+      213: -8969369999871178085
+    second: Gandalf the Grey_122
+  - first:
+      213: -9093789199394072958
+    second: Gandalf the Grey_123
+  - first:
+      213: 5351347257005297415
+    second: Gandalf the Grey_124
+  - first:
+      213: -927663117934172284
+    second: Gandalf the Grey_125
+  - first:
+      213: 2634352468651190088
+    second: Gandalf the Grey_126
+  - first:
+      213: 458271567517875704
+    second: Gandalf the Grey_127
+  - first:
+      213: 5547352876378719690
+    second: Gandalf the Grey_128
+  - first:
+      213: 7444316832803426416
+    second: Gandalf the Grey_129
+  - first:
+      213: 8260563076251509473
+    second: Gandalf the Grey_130
+  - first:
+      213: 1736555645490971094
+    second: Gandalf the Grey_131
+  - first:
+      213: -7308111697843776043
+    second: Gandalf the Grey_132
+  - first:
+      213: -8746539737092567186
+    second: Gandalf the Grey_133
+  - first:
+      213: 8559022756488854412
+    second: Gandalf the Grey_134
+  - first:
+      213: 8669905275633864367
+    second: Gandalf the Grey_135
+  - first:
+      213: 7153289798771235159
+    second: Gandalf the Grey_136
+  - first:
+      213: 4431101769505520627
+    second: Gandalf the Grey_137
+  - first:
+      213: -3693949224439001090
+    second: Gandalf the Grey_138
+  - first:
+      213: 7843686019618350565
+    second: Gandalf the Grey_139
+  - first:
+      213: -6219037666301777435
+    second: Gandalf the Grey_140
+  - first:
+      213: -6697884263149286882
+    second: Gandalf the Grey_141
+  - first:
+      213: -6284263519997264773
+    second: Gandalf the Grey_142
+  - first:
+      213: 6808580218649582579
+    second: Gandalf the Grey_143
+  - first:
+      213: 4060283430165764140
+    second: Gandalf the Grey_144
+  - first:
+      213: 6854231893675370793
+    second: Gandalf the Grey_145
+  - first:
+      213: 1753277093289224438
+    second: Gandalf the Grey_146
+  - first:
+      213: -1290683959761067299
+    second: Gandalf the Grey_147
+  - first:
+      213: 8638698104644400808
+    second: Gandalf the Grey_148
+  - first:
+      213: -6329512010651675585
+    second: Gandalf the Grey_149
+  - first:
+      213: -4881713984060619937
+    second: Gandalf the Grey_150
+  - first:
+      213: 2085666240947799563
+    second: Gandalf the Grey_151
+  - first:
+      213: -4302247308787301235
+    second: Gandalf the Grey_152
+  - first:
+      213: 1514845226327174416
+    second: Gandalf the Grey_153
+  - first:
+      213: -8623752899760941302
+    second: Gandalf the Grey_154
+  - first:
+      213: 4030042455066904279
+    second: Gandalf the Grey_155
+  - first:
+      213: 8878265217071716847
+    second: Gandalf the Grey_156
+  - first:
+      213: -5921933221727777224
+    second: Gandalf the Grey_157
+  - first:
+      213: -4152356502690832051
+    second: Gandalf the Grey_158
+  - first:
+      213: -4198138139721421220
+    second: Gandalf the Grey_159
+  - first:
+      213: 7379601176113695086
+    second: Gandalf the Grey_160
+  - first:
+      213: 3887454867781946636
+    second: Gandalf the Grey_161
+  - first:
+      213: -4416576291621405490
+    second: Gandalf the Grey_162
+  - first:
+      213: -8996412198533590157
+    second: Gandalf the Grey_163
+  - first:
+      213: 6412714722227186174
+    second: Gandalf the Grey_164
+  - first:
+      213: 3904731172368025885
+    second: Gandalf the Grey_165
+  - first:
+      213: 6017984293917597077
+    second: Gandalf the Grey_166
+  - first:
+      213: -1359480327480459171
+    second: Gandalf the Grey_167
+  - first:
+      213: 2710328292201398999
+    second: Gandalf the Grey_168
+  - first:
+      213: -1451418954531607119
+    second: Gandalf the Grey_169
+  - first:
+      213: 7098894981746516337
+    second: Gandalf the Grey_170
+  - first:
+      213: -3075390931199093791
+    second: Gandalf the Grey_171
+  - first:
+      213: -8927957905166659243
+    second: Gandalf the Grey_172
+  - first:
+      213: 4343419991520589091
+    second: Gandalf the Grey_173
+  - first:
+      213: -6263143950259434958
+    second: Gandalf the Grey_174
+  - first:
+      213: -7052974211935632736
+    second: Gandalf the Grey_175
+  - first:
+      213: 2499826088313532377
+    second: Gandalf the Grey_176
+  - first:
+      213: -2204623737944298193
+    second: Gandalf the Grey_177
+  - first:
+      213: -3134770344859325776
+    second: Gandalf the Grey_178
+  - first:
+      213: -1796876142581118114
+    second: Gandalf the Grey_179
+  - first:
+      213: 7974241588191823614
+    second: Gandalf the Grey_180
+  - first:
+      213: -4242745899544446469
+    second: Gandalf the Grey_181
+  - first:
+      213: 2138773150227805746
+    second: Gandalf the Grey_182
+  - first:
+      213: 3843788717782553061
+    second: Gandalf the Grey_183
+  - first:
+      213: 3264046514402786680
+    second: Gandalf the Grey_184
+  - first:
+      213: -7062816347489971737
+    second: Gandalf the Grey_185
+  - first:
+      213: 2110588773096201765
+    second: Gandalf the Grey_186
+  - first:
+      213: 231153665497455728
+    second: Gandalf the Grey_187
+  - first:
+      213: -5170559689685570813
+    second: Gandalf the Grey_188
+  - first:
+      213: 4935327135747073447
+    second: Gandalf the Grey_189
+  - first:
+      213: 4278670174821388029
+    second: Gandalf the Grey_190
+  - first:
+      213: 5856940483210863375
+    second: Gandalf the Grey_191
+  - first:
+      213: -5797565814973881577
+    second: Gandalf the Grey_192
+  - first:
+      213: 30273636336072135
+    second: Gandalf the Grey_193
+  - first:
+      213: 7897018537250481779
+    second: Gandalf the Grey_194
+  - first:
+      213: -7915714994134589111
+    second: Gandalf the Grey_195
+  - first:
+      213: 6530153789501921953
+    second: Gandalf the Grey_196
+  - first:
+      213: -7251883901101916736
+    second: Gandalf the Grey_197
+  - first:
+      213: 6711930225825273713
+    second: Gandalf the Grey_198
+  - first:
+      213: 4869552134355270092
+    second: Gandalf the Grey_199
+  - first:
+      213: 3613287278288555083
+    second: Gandalf the Grey_200
+  - first:
+      213: 4626975368914632100
+    second: Gandalf the Grey_201
+  - first:
+      213: 674176388687023646
+    second: Gandalf the Grey_202
+  - first:
+      213: -6136636978602323454
+    second: Gandalf the Grey_203
+  - first:
+      213: -8087493321954141464
+    second: Gandalf the Grey_204
+  - first:
+      213: -986718860260495887
+    second: Gandalf the Grey_205
+  - first:
+      213: -7515904362700140050
+    second: Gandalf the Grey_206
+  - first:
+      213: -5288882369337467842
+    second: Gandalf the Grey_207
+  - first:
+      213: -97727740311725033
+    second: Gandalf the Grey_208
+  - first:
+      213: 2926597503952810064
+    second: Gandalf the Grey_209
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gandalf the Grey_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2049
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3ee5ddea8b3f170800000000000000
+      internalID: 8211109606804349910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2049
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d99a23d1ae40510800000000000000
+      internalID: 1514592785828257174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2049
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce0e2172e17bfb60800000000000000
+      internalID: 7780937998588055247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2049
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaf597616d720120800000000000000
+      internalID: 2378601410508225189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2049
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e8a5765e4112630800000000000000
+      internalID: 3900421727793614441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2049
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93544420431b3b460800000000000000
+      internalID: 7256338261558445369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2049
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856362d7e8428f6c0800000000000000
+      internalID: -4109494465571965352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1985
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6d2457f5b3f9660800000000000000
+      internalID: 7394694394340890302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1985
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4de5f1d425a96bf0800000000000000
+      internalID: -330551520075059894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1985
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07f3ec03213c2c40800000000000000
+      internalID: 5488816072467674893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1985
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb22b949d2154600800000000000000
+      internalID: 451788062074219447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09810d3d6e085ac30800000000000000
+      internalID: 4370040742317398160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefa8c0691e0c6490800000000000000
+      internalID: -7751805356450730001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1985
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaa8fa3c7df2cdc0800000000000000
+      internalID: -3620052440445310237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1921
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cff64435c59cb4d0800000000000000
+      internalID: -3117452167829061692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1921
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d50c248343818c0800000000000000
+      internalID: -4028412450440192734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1921
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd02653c593792130800000000000000
+      internalID: 3542489668968128732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1921
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f7e42840f31c2f0800000000000000
+      internalID: -954412357427232898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fbf21edc51a6e90800000000000000
+      internalID: -7031783894195126525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519c2d0fea839a530800000000000000
+      internalID: 3866684079090092309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1921
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dafc51bc186cc780800000000000000
+      internalID: -8661433510896272687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1857
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e899e7d60758e0a0800000000000000
+      internalID: -6852131146140378911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1857
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9661b6f81a4aab30800000000000000
+      internalID: 4299330265357051547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1857
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335926b87ec29d630800000000000000
+      internalID: 3952239520981882163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1857
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a1c7d57ff67a4f0800000000000000
+      internalID: -817561699128436068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1857
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad87731fb9608cd10800000000000000
+      internalID: 2145972489278683354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1857
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbeb7b8070fbbf060800000000000000
+      internalID: 6988389283727392447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1857
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf585cd6a7599b630800000000000000
+      internalID: 3943347301799790076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1793
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f253d43d570a1bb20800000000000000
+      internalID: 3148474042425357615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1791
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8be379f99b99e90800000000000000
+      internalID: -7018374449191798564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1791
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f7c3545e17a30c0800000000000000
+      internalID: -4595235240255127780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1791
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e32cb80bafe7330800000000000000
+      internalID: 3710678779165818460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1791
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4594d1e2540080430800000000000000
+      internalID: 3749246986912352596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_33
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1791
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8551b4533cfd260800000000000000
+      internalID: 7124627769183787229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1791
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d777f7878fe3f9a80800000000000000
+      internalID: -8457972338284071043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1791
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ec1c4362cc97920800000000000000
+      internalID: 2988644292202974815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1729
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896d6d34d41dced20800000000000000
+      internalID: 3309249955991312024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1729
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92d29bc2c99f25c0800000000000000
+      internalID: -4237999662414245217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1729
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2beb3cdefe90698e0800000000000000
+      internalID: -1687150084312809806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1729
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3126ccc2e6d035d90800000000000000
+      internalID: -7110324619838725613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1729
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f9ad432ac256800800000000000000
+      internalID: 604938800134266703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1729
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30dbffb2ae7b1dc30800000000000000
+      internalID: 4382486128796613891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1729
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669d8bb428a903280800000000000000
+      internalID: -9065576165489976986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_43
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1729
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a7431d98ebe45a0800000000000000
+      internalID: -6535076510138336689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1665
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae760b1a595e4fd0800000000000000
+      internalID: -2355847311532851542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1666
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e1dadfaa2e1d170800000000000000
+      internalID: 8201585620446682725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1666
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18efc57ddfdcf460800000000000000
+      internalID: 7276937240181205022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1666
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3db07fea0f00e240800000000000000
+      internalID: 4818868140927663419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_48
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1666
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a8c1e8163945640800000000000000
+      internalID: 5067837527903996541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1666
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5107ff7d206b4e640800000000000000
+      internalID: 5108408000675016725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_50
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1666
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573f6297efb53ae90800000000000000
+      internalID: -7015662646000684171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1666
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e2abad57f03a580800000000000000
+      internalID: -8817186646606074316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_52
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1601
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779c2ba1942622d80800000000000000
+      internalID: -8276945099033491081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1601
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a967937ff7607900800000000000000
+      internalID: 680157890586569123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1601
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612fa04e1ae955330800000000000000
+      internalID: 3699037087107576342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1601
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bbd497b18e0e790800000000000000
+      internalID: -7502741774502347891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1601
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99557da68ecdfc750800000000000000
+      internalID: 6327518892261856665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_57
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1601
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446a173f3f23630a0800000000000000
+      internalID: -6902273355555953084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_58
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1601
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40e27b7ea6b71760800000000000000
+      internalID: 7428606970882613323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1601
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26823b8246ffe2a60800000000000000
+      internalID: 7651333622593693794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1537
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6295051144f932880800000000000000
+      internalID: -8636884545669408474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1538
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cef115268b3776f0800000000000000
+      internalID: -687014970817118525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1537
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3046047a7ef7bfe70800000000000000
+      internalID: 9150047700853482499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1536
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70654249990873da0800000000000000
+      internalID: -5965157784325171705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1537
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a332aebbe1ec2fd0800000000000000
+      internalID: -2365267301644487774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1538
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc482d5640f4f0380800000000000000
+      internalID: -9002890249783573297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1537
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8017075057f3e7110800000000000000
+      internalID: 1260514717545296136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1536
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390fddfa9ceac9370800000000000000
+      internalID: 8330725591990792339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1537
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d57b48bd2abed5f0800000000000000
+      internalID: -729941384059193900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1473
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7931ec2ccf4d0c50800000000000000
+      internalID: 6633045564531489149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1473
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d83a71f6657fd00800000000000000
+      internalID: 1006368076878548361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1474
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc8086ccc9d5a560800000000000000
+      internalID: 7324499842514848983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_72
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1474
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b03ad12c3ff42b00800000000000000
+      internalID: 803047267309858998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_73
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1473
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f362c84b1520a90800000000000000
+      internalID: -7349221806027948185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1473
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b849ea0d8930e880800000000000000
+      internalID: -8583797611831932752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_75
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1473
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477d534c97a4a7f20800000000000000
+      internalID: 3421128753784674164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_76
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1473
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2f799e2313bc400800000000000000
+      internalID: 345423891161150131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_77
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1473
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b992fdd17299b20800000000000000
+      internalID: 3141585224319212347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1409
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b2430e0114e0b00800000000000000
+      internalID: 796645724827954078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1409
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d6076b36337b250800000000000000
+      internalID: 5960289135203741033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1408
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6129b539c25a027f0800000000000000
+      internalID: -639329536217214442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1408
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab42466074f3af4c0800000000000000
+      internalID: -4253017323815557958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1408
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7282f1dada15e0a0800000000000000
+      internalID: -6853041730846817668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1409
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c443707a7f6680e0800000000000000
+      internalID: -2268002790671170362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1408
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e95bce61509d220800000000000000
+      internalID: 2511043863254507089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1408
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63855035779f9e90800000000000000
+      internalID: -7016723164842065044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1408
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426ead1ac4c7b8d00800000000000000
+      internalID: 976010412830680612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_87
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1345
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083c7f9103b553110800000000000000
+      internalID: 1239997534562665344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1345
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a27442c907d3070800000000000000
+      internalID: 8087744321753131655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1346
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a1234f8e20108d0800000000000000
+      internalID: -2882019086987814327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_90
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1346
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc9c2853a1c6e4f0800000000000000
+      internalID: -799738976508535614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_91
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1345
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd43196463be4e090800000000000000
+      internalID: -8006015619213216549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1345
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88206c90b3db25550800000000000000
+      internalID: 6148184502578840200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_93
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1345
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0112886009f97260800000000000000
+      internalID: 7095976468047597839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_94
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1345
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ef12778f41d03f0800000000000000
+      internalID: -933066490412663214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_95
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1345
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44a22be6c88fa380800000000000000
+      internalID: -8957790745886809011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1281
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e657b5a3017fdf0800000000000000
+      internalID: -146630620037681664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1280
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a677b41c78d62e0800000000000000
+      internalID: -2130897784411821459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1280
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41efb2636c4db490800000000000000
+      internalID: -7728937395755687603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_99
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1280
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba6c742807b0a200800000000000000
+      internalID: 189352429949315766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1280
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1632554a2f7ddd7e0800000000000000
+      internalID: -1738996443956042911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1280
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6975bf50120c2830800000000000000
+      internalID: 4047612434447694187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_102
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1217
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9058e35873b690e00800000000000000
+      internalID: 1011457477524227337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1217
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c25c8dad6e434ef0800000000000000
+      internalID: -125170131666185533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1217
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b9e684b1e5e5480800000000000000
+      internalID: -8908579541619926221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1217
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85af7eeb802c6330800000000000000
+      internalID: 3705372378792961421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1217
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432584c090e44d1f0800000000000000
+      internalID: -1021105414738521548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1217
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5924bb7de939728d0800000000000000
+      internalID: -2871163926991912299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1153
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75ef0a55d1a49260800000000000000
+      internalID: 7103480449981212031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1153
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655de6a1789213eb0800000000000000
+      internalID: -4741963272403626666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1153
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61619a068faf83e0800000000000000
+      internalID: -2049226315192508051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1153
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd888c9718cc98e00800000000000000
+      internalID: 1047593244806383835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1153
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77096afcbbfc8a330800000000000000
+      internalID: 3722453497571348599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_113
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1153
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6464a0ef036136d70800000000000000
+      internalID: 9035089677111674438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1089
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061d6459a47ac4cb0800000000000000
+      internalID: -4878340357575224992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_115
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1089
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0b4df32e0b2e30800000000000000
+      internalID: 4479689802086288814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_116
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1089
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a40222993795e940800000000000000
+      internalID: 5324828407956112551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_117
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1089
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dabfc6d42a7e780800000000000000
+      internalID: -8653769705544503948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1089
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4ad01594f89fde0800000000000000
+      internalID: -1298849472464444238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1089
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f03e670a8b97bad0800000000000000
+      internalID: -2686507635570757385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6773b441077166420800000000000000
+      internalID: 2622809603134142326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1023
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0b2d71b396e13a0800000000000000
+      internalID: -6692796293702307643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_122
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1023
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a02a2c185668380800000000000000
+      internalID: -8969369999871178085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_123
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1023
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28615d377ee5cc180800000000000000
+      internalID: -9093789199394072958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_124
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1023
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fcf834afdc34a40800000000000000
+      internalID: 5351347257005297415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_125
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1023
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4876d482f474023f0800000000000000
+      internalID: -927663117934172284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1023
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847a023ec991f8420800000000000000
+      internalID: 2634352468651190088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_127
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1023
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd7098009b1c5600800000000000000
+      internalID: 458271567517875704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_128
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1023
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac58b48cc082cfc40800000000000000
+      internalID: 5547352876378719690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_129
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1023
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07095beb7b68f4760800000000000000
+      internalID: 7444316832803426416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_130
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1023
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2edacf95a63a270800000000000000
+      internalID: 8260563076251509473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_131
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1023
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1403ea82c791810800000000000000
+      internalID: 1736555645490971094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_132
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1023
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5152f712f549a90800000000000000
+      internalID: -7308111697843776043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_133
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 961
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f42c4437c0e9680800000000000000
+      internalID: -8746539737092567186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 961
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bb00179d1c7c670800000000000000
+      internalID: 8559022756488854412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_135
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 961
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae017eb9e0b15870800000000000000
+      internalID: 8669905275633864367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 961
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7595f271c27954360800000000000000
+      internalID: 7153289798771235159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 961
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb3bf6159f6e7d30800000000000000
+      internalID: 4431101769505520627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effcbf270c47cbcc0800000000000000
+      internalID: -3693949224439001090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 961
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5ac0190ee5adc60800000000000000
+      internalID: 7843686019618350565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 961
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9ee4f313a81b9a0800000000000000
+      internalID: -6219037666301777435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_141
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 961
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ace44efb55c03a0800000000000000
+      internalID: -6697884263149286882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_142
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 961
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cfd9fbf9fc9c8a0800000000000000
+      internalID: -6284263519997264773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_143
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 961
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb1c5da2afec7e50800000000000000
+      internalID: 6808580218649582579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_144
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 961
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c285f667446095830800000000000000
+      internalID: 4060283430165764140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_145
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 961
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9296cae879f1f1f50800000000000000
+      internalID: 6854231893675370793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 897
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f865522a34e45810800000000000000
+      internalID: 1753277093289224438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 898
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2a525e6c1961ee0800000000000000
+      internalID: -1290683959761067299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 898
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a67b290822d2e770800000000000000
+      internalID: 8638698104644400808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34d98b8c5e0928a0800000000000000
+      internalID: -6329512010651675585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_150
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f538205fefaa04cb0800000000000000
+      internalID: -4881713984060619937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_151
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06c7b35566c1fc10800000000000000
+      internalID: 2085666240947799563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_152
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d844adfedd85b44c0800000000000000
+      internalID: -4302247308787301235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_153
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d6de415bfc50510800000000000000
+      internalID: 1514845226327174416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_154
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a071103ad66425880800000000000000
+      internalID: -8623752899760941302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_155
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d68104c2469de730800000000000000
+      internalID: 4030042455066904279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_156
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe914450d2fe53b70800000000000000
+      internalID: 8878265217071716847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_157
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ec45f4c1111dda0800000000000000
+      internalID: -5921933221727777224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_158
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 897
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41645cc2cddf56c0800000000000000
+      internalID: -4152356502690832051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_159
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 833
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ea2e7ca973db5c0800000000000000
+      internalID: -4198138139721421220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_160
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 833
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69cf4ebb2c996660800000000000000
+      internalID: 7379601176113695086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 833
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d818a0b9303f530800000000000000
+      internalID: 3887454867781946636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc7e76434b25b2c0800000000000000
+      internalID: -4416576291621405490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 833
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3731a6d35c2562380800000000000000
+      internalID: -8996412198533590157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_164
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 833
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9e448501a8ef850800000000000000
+      internalID: 6412714722227186174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_165
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 833
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1904682054603630800000000000000
+      internalID: 3904731172368025885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 833
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d96d6a4dc248350800000000000000
+      internalID: 6017984293917597077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_167
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 833
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50456158d7222de0800000000000000
+      internalID: -1359480327480459171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 833
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d20b59c8350d9520800000000000000
+      internalID: 2710328292201398999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 833
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdefda96268bdbe0800000000000000
+      internalID: -1451418954531607119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_170
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 833
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171edc4df57548260800000000000000
+      internalID: 7098894981746516337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 833
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e39b600e340255d0800000000000000
+      internalID: -3075390931199093791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 769
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55196ec6695891480800000000000000
+      internalID: -8927957905166659243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3253ae8487de64c30800000000000000
+      internalID: 4343419991520589091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_174
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 769
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a46a3c2c7d419a0800000000000000
+      internalID: -6263143950259434958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_175
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 770
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2069f825dce1e90800000000000000
+      internalID: -7052974211935632736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_176
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 770
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfae2a259a21b220800000000000000
+      internalID: 2499826088313532377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_177
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 767
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2daf64146a9761e0800000000000000
+      internalID: -2204623737944298193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_178
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 641
+        width: 72
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba2b36eafe0f74d0800000000000000
+      internalID: -3134770344859325776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_179
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 639
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b04182ba63017e0800000000000000
+      internalID: -1796876142581118114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_180
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 639
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef60251a9723aae60800000000000000
+      internalID: 7974241588191823614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_181
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 639
+        width: 32
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf97869551dbe15c0800000000000000
+      internalID: -4242745899544446469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_182
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 639
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236b87239d27ead10800000000000000
+      internalID: 2138773150227805746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_183
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 639
+        width: 31
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1551b3971e75530800000000000000
+      internalID: 3843788717782553061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_184
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 639
+        width: 31
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d745dd2093c4d20800000000000000
+      internalID: 3264046514402786680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_185
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 639
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1d90ec3f5dbfd90800000000000000
+      internalID: -7062816347489971737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_186
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 449
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e93578e415a4d10800000000000000
+      internalID: 2110588773096201765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_187
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 449
+        width: 76
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c5188b809353300800000000000000
+      internalID: 231153665497455728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_188
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 449
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b66566b5b7e38b0800000000000000
+      internalID: -5170559689685570813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_189
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 449
+        width: 78
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5ec88a1edcd7440800000000000000
+      internalID: 4935327135747073447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_190
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 449
+        width: 84
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe8949cad3e06b30800000000000000
+      internalID: 4278670174821388029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_191
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 449
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03636c8658084150800000000000000
+      internalID: 5856940483210863375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_192
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 449
+        width: 83
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713a88cab98ea8fa0800000000000000
+      internalID: -5797565814973881577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_193
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 449
+        width: 72
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5fedb36bd8b6000800000000000000
+      internalID: 30273636336072135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_194
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 257
+        width: 72
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3766d79f488d79d60800000000000000
+      internalID: 7897018537250481779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_195
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 247
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941ef5fe62bb52290800000000000000
+      internalID: -7915714994134589111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_196
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 235
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aadee7f544cf9a50800000000000000
+      internalID: 6530153789501921953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_197
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 232
+        width: 30
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd327a93022c5b90800000000000000
+      internalID: -7251883901101916736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_198
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 224
+        width: 30
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177d583aaf0952d50800000000000000
+      internalID: 6711930225825273713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_199
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 215
+        width: 30
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9bd7fbddf149340800000000000000
+      internalID: 4869552134355270092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_200
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 223
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cc3d5b2a9f42230800000000000000
+      internalID: 3613287278288555083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_201
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 238
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad73a05591563040800000000000000
+      internalID: 4626975368914632100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_202
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 65
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e45a38ad72b5900800000000000000
+      internalID: 674176388687023646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_203
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 65
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202d1e66e2946daa0800000000000000
+      internalID: -6136636978602323454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_204
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 65
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea549d4ca373cf80800000000000000
+      internalID: -8087493321954141464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_205
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 65
+        width: 78
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdaef8ac687e42f0800000000000000
+      internalID: -986718860260495887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_206
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 65
+        width: 84
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee113779dc422b790800000000000000
+      internalID: -7515904362700140050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_207
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 65
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c50dcb18d1a96b0800000000000000
+      internalID: -5288882369337467842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_208
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 65
+        width: 83
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c9402532dc4aef0800000000000000
+      internalID: -97727740311725033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gandalf the Grey_209
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 65
+        width: 72
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050f6af8cec5d9820800000000000000
+      internalID: 2926597503952810064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gandalf the Grey_0: 8211109606804349910
+      Gandalf the Grey_1: 1514592785828257174
+      Gandalf the Grey_10: 451788062074219447
+      Gandalf the Grey_100: -1738996443956042911
+      Gandalf the Grey_101: 4047612434447694187
+      Gandalf the Grey_102: 1011457477524227337
+      Gandalf the Grey_103: -125170131666185533
+      Gandalf the Grey_104: -8908579541619926221
+      Gandalf the Grey_105: 3705372378792961421
+      Gandalf the Grey_106: -1021105414738521548
+      Gandalf the Grey_107: -2871163926991912299
+      Gandalf the Grey_108: 7103480449981212031
+      Gandalf the Grey_109: -4741963272403626666
+      Gandalf the Grey_11: 4370040742317398160
+      Gandalf the Grey_110: -2049226315192508051
+      Gandalf the Grey_111: 1047593244806383835
+      Gandalf the Grey_112: 3722453497571348599
+      Gandalf the Grey_113: 9035089677111674438
+      Gandalf the Grey_114: -4878340357575224992
+      Gandalf the Grey_115: 4479689802086288814
+      Gandalf the Grey_116: 5324828407956112551
+      Gandalf the Grey_117: -8653769705544503948
+      Gandalf the Grey_118: -1298849472464444238
+      Gandalf the Grey_119: -2686507635570757385
+      Gandalf the Grey_12: -7751805356450730001
+      Gandalf the Grey_120: 2622809603134142326
+      Gandalf the Grey_121: -6692796293702307643
+      Gandalf the Grey_122: -8969369999871178085
+      Gandalf the Grey_123: -9093789199394072958
+      Gandalf the Grey_124: 5351347257005297415
+      Gandalf the Grey_125: -927663117934172284
+      Gandalf the Grey_126: 2634352468651190088
+      Gandalf the Grey_127: 458271567517875704
+      Gandalf the Grey_128: 5547352876378719690
+      Gandalf the Grey_129: 7444316832803426416
+      Gandalf the Grey_13: -3620052440445310237
+      Gandalf the Grey_130: 8260563076251509473
+      Gandalf the Grey_131: 1736555645490971094
+      Gandalf the Grey_132: -7308111697843776043
+      Gandalf the Grey_133: -8746539737092567186
+      Gandalf the Grey_134: 8559022756488854412
+      Gandalf the Grey_135: 8669905275633864367
+      Gandalf the Grey_136: 7153289798771235159
+      Gandalf the Grey_137: 4431101769505520627
+      Gandalf the Grey_138: -3693949224439001090
+      Gandalf the Grey_139: 7843686019618350565
+      Gandalf the Grey_14: -3117452167829061692
+      Gandalf the Grey_140: -6219037666301777435
+      Gandalf the Grey_141: -6697884263149286882
+      Gandalf the Grey_142: -6284263519997264773
+      Gandalf the Grey_143: 6808580218649582579
+      Gandalf the Grey_144: 4060283430165764140
+      Gandalf the Grey_145: 6854231893675370793
+      Gandalf the Grey_146: 1753277093289224438
+      Gandalf the Grey_147: -1290683959761067299
+      Gandalf the Grey_148: 8638698104644400808
+      Gandalf the Grey_149: -6329512010651675585
+      Gandalf the Grey_15: -4028412450440192734
+      Gandalf the Grey_150: -4881713984060619937
+      Gandalf the Grey_151: 2085666240947799563
+      Gandalf the Grey_152: -4302247308787301235
+      Gandalf the Grey_153: 1514845226327174416
+      Gandalf the Grey_154: -8623752899760941302
+      Gandalf the Grey_155: 4030042455066904279
+      Gandalf the Grey_156: 8878265217071716847
+      Gandalf the Grey_157: -5921933221727777224
+      Gandalf the Grey_158: -4152356502690832051
+      Gandalf the Grey_159: -4198138139721421220
+      Gandalf the Grey_16: 3542489668968128732
+      Gandalf the Grey_160: 7379601176113695086
+      Gandalf the Grey_161: 3887454867781946636
+      Gandalf the Grey_162: -4416576291621405490
+      Gandalf the Grey_163: -8996412198533590157
+      Gandalf the Grey_164: 6412714722227186174
+      Gandalf the Grey_165: 3904731172368025885
+      Gandalf the Grey_166: 6017984293917597077
+      Gandalf the Grey_167: -1359480327480459171
+      Gandalf the Grey_168: 2710328292201398999
+      Gandalf the Grey_169: -1451418954531607119
+      Gandalf the Grey_17: -954412357427232898
+      Gandalf the Grey_170: 7098894981746516337
+      Gandalf the Grey_171: -3075390931199093791
+      Gandalf the Grey_172: -8927957905166659243
+      Gandalf the Grey_173: 4343419991520589091
+      Gandalf the Grey_174: -6263143950259434958
+      Gandalf the Grey_175: -7052974211935632736
+      Gandalf the Grey_176: 2499826088313532377
+      Gandalf the Grey_177: -2204623737944298193
+      Gandalf the Grey_178: -3134770344859325776
+      Gandalf the Grey_179: -1796876142581118114
+      Gandalf the Grey_18: -7031783894195126525
+      Gandalf the Grey_180: 7974241588191823614
+      Gandalf the Grey_181: -4242745899544446469
+      Gandalf the Grey_182: 2138773150227805746
+      Gandalf the Grey_183: 3843788717782553061
+      Gandalf the Grey_184: 3264046514402786680
+      Gandalf the Grey_185: -7062816347489971737
+      Gandalf the Grey_186: 2110588773096201765
+      Gandalf the Grey_187: 231153665497455728
+      Gandalf the Grey_188: -5170559689685570813
+      Gandalf the Grey_189: 4935327135747073447
+      Gandalf the Grey_19: 3866684079090092309
+      Gandalf the Grey_190: 4278670174821388029
+      Gandalf the Grey_191: 5856940483210863375
+      Gandalf the Grey_192: -5797565814973881577
+      Gandalf the Grey_193: 30273636336072135
+      Gandalf the Grey_194: 7897018537250481779
+      Gandalf the Grey_195: -7915714994134589111
+      Gandalf the Grey_196: 6530153789501921953
+      Gandalf the Grey_197: -7251883901101916736
+      Gandalf the Grey_198: 6711930225825273713
+      Gandalf the Grey_199: 4869552134355270092
+      Gandalf the Grey_2: 7780937998588055247
+      Gandalf the Grey_20: -8661433510896272687
+      Gandalf the Grey_200: 3613287278288555083
+      Gandalf the Grey_201: 4626975368914632100
+      Gandalf the Grey_202: 674176388687023646
+      Gandalf the Grey_203: -6136636978602323454
+      Gandalf the Grey_204: -8087493321954141464
+      Gandalf the Grey_205: -986718860260495887
+      Gandalf the Grey_206: -7515904362700140050
+      Gandalf the Grey_207: -5288882369337467842
+      Gandalf the Grey_208: -97727740311725033
+      Gandalf the Grey_209: 2926597503952810064
+      Gandalf the Grey_21: -6852131146140378911
+      Gandalf the Grey_22: 4299330265357051547
+      Gandalf the Grey_23: 3952239520981882163
+      Gandalf the Grey_24: -817561699128436068
+      Gandalf the Grey_25: 2145972489278683354
+      Gandalf the Grey_26: 6988389283727392447
+      Gandalf the Grey_27: 3943347301799790076
+      Gandalf the Grey_28: 3148474042425357615
+      Gandalf the Grey_29: -7018374449191798564
+      Gandalf the Grey_3: 2378601410508225189
+      Gandalf the Grey_30: -4595235240255127780
+      Gandalf the Grey_31: 3710678779165818460
+      Gandalf the Grey_32: 3749246986912352596
+      Gandalf the Grey_33: 7124627769183787229
+      Gandalf the Grey_34: -8457972338284071043
+      Gandalf the Grey_35: 2988644292202974815
+      Gandalf the Grey_36: 3309249955991312024
+      Gandalf the Grey_37: -4237999662414245217
+      Gandalf the Grey_38: -1687150084312809806
+      Gandalf the Grey_39: -7110324619838725613
+      Gandalf the Grey_4: 3900421727793614441
+      Gandalf the Grey_40: 604938800134266703
+      Gandalf the Grey_41: 4382486128796613891
+      Gandalf the Grey_42: -9065576165489976986
+      Gandalf the Grey_43: -6535076510138336689
+      Gandalf the Grey_44: -2355847311532851542
+      Gandalf the Grey_45: 8201585620446682725
+      Gandalf the Grey_46: 7276937240181205022
+      Gandalf the Grey_47: 4818868140927663419
+      Gandalf the Grey_48: 5067837527903996541
+      Gandalf the Grey_49: 5108408000675016725
+      Gandalf the Grey_5: 7256338261558445369
+      Gandalf the Grey_50: -7015662646000684171
+      Gandalf the Grey_51: -8817186646606074316
+      Gandalf the Grey_52: -8276945099033491081
+      Gandalf the Grey_53: 680157890586569123
+      Gandalf the Grey_54: 3699037087107576342
+      Gandalf the Grey_55: -7502741774502347891
+      Gandalf the Grey_56: 6327518892261856665
+      Gandalf the Grey_57: -6902273355555953084
+      Gandalf the Grey_58: 7428606970882613323
+      Gandalf the Grey_59: 7651333622593693794
+      Gandalf the Grey_6: -4109494465571965352
+      Gandalf the Grey_60: -8636884545669408474
+      Gandalf the Grey_61: -687014970817118525
+      Gandalf the Grey_62: 9150047700853482499
+      Gandalf the Grey_63: -5965157784325171705
+      Gandalf the Grey_64: -2365267301644487774
+      Gandalf the Grey_65: -9002890249783573297
+      Gandalf the Grey_66: 1260514717545296136
+      Gandalf the Grey_67: 8330725591990792339
+      Gandalf the Grey_68: -729941384059193900
+      Gandalf the Grey_69: 6633045564531489149
+      Gandalf the Grey_7: 7394694394340890302
+      Gandalf the Grey_70: 1006368076878548361
+      Gandalf the Grey_71: 7324499842514848983
+      Gandalf the Grey_72: 803047267309858998
+      Gandalf the Grey_73: -7349221806027948185
+      Gandalf the Grey_74: -8583797611831932752
+      Gandalf the Grey_75: 3421128753784674164
+      Gandalf the Grey_76: 345423891161150131
+      Gandalf the Grey_77: 3141585224319212347
+      Gandalf the Grey_78: 796645724827954078
+      Gandalf the Grey_79: 5960289135203741033
+      Gandalf the Grey_8: -330551520075059894
+      Gandalf the Grey_80: -639329536217214442
+      Gandalf the Grey_81: -4253017323815557958
+      Gandalf the Grey_82: -6853041730846817668
+      Gandalf the Grey_83: -2268002790671170362
+      Gandalf the Grey_84: 2511043863254507089
+      Gandalf the Grey_85: -7016723164842065044
+      Gandalf the Grey_86: 976010412830680612
+      Gandalf the Grey_87: 1239997534562665344
+      Gandalf the Grey_88: 8087744321753131655
+      Gandalf the Grey_89: -2882019086987814327
+      Gandalf the Grey_9: 5488816072467674893
+      Gandalf the Grey_90: -799738976508535614
+      Gandalf the Grey_91: -8006015619213216549
+      Gandalf the Grey_92: 6148184502578840200
+      Gandalf the Grey_93: 7095976468047597839
+      Gandalf the Grey_94: -933066490412663214
+      Gandalf the Grey_95: -8957790745886809011
+      Gandalf the Grey_96: -146630620037681664
+      Gandalf the Grey_97: -2130897784411821459
+      Gandalf the Grey_98: -7728937395755687603
+      Gandalf the Grey_99: 189352429949315766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
