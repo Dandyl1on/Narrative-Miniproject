@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 21965460960725c4da9a849b6f43718b
+guid: 30b277a5b5a90034c9ebe2fd79b853c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3746215262598439631
-    second: foggy_0
+      213: -413466280477018811
+    second: BlackTrees_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: foggy_0
+      name: BlackTrees_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 384
-        height: 216
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13d5ca42115c20cc0800000000000000
-      internalID: -3746215262598439631
+      spriteID: 545b099cb92134af0800000000000000
+      internalID: -413466280477018811
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      foggy_0: -3746215262598439631
+      BlackTrees_0: -413466280477018811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

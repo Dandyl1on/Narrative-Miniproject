@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 97670af34f6391347b36dbe883c7d5a0
+guid: f736cebc70930514ba31832f8a38c4e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6470460504253458178
-    second: 3_0
+      213: -3746215262598439631
+    second: foggy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3_0
+      name: foggy_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 384
-        height: 87
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef817ce047e4436a0800000000000000
-      internalID: -6470460504253458178
+      spriteID: 13d5ca42115c20cc0800000000000000
+      internalID: -3746215262598439631
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      3_0: -6470460504253458178
+      foggy_0: -3746215262598439631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

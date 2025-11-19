@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 10e7e4ed4d9c7aa479705e51bbea6f73
+guid: d0e61280d23eb454cb6ff0d115dcd686
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8288426215254106694
-    second: 8_0
+      213: -274977241970372861
+    second: SignLeavingShire_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 8_0
+      name: SignLeavingShire_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 384
-        height: 216
+        width: 62
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 642a1439ab7660370800000000000000
-      internalID: 8288426215254106694
+      spriteID: 30f0a03c7a51f2cf0800000000000000
+      internalID: -274977241970372861
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      8_0: 8288426215254106694
+      SignLeavingShire_0: -274977241970372861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
