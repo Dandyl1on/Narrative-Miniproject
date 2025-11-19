@@ -20,8 +20,6 @@ public class Playermovement : MonoBehaviour
 
     public Animator Animation;
 
-    public GameObject ziplineText;
-
     public bool lookDown;
     public bool lookUp;
 
@@ -39,7 +37,6 @@ public class Playermovement : MonoBehaviour
     {
         Animation = GetComponent<Animator>();
         InvokeRepeating(nameof(CheckForIdle2), checkInterval, checkInterval);
-        ziplineText.SetActive(false);
         Audio = GetComponent<AudioSource>();
     }
 
@@ -139,22 +136,6 @@ public class Playermovement : MonoBehaviour
             grounded = true;
             falls = false;
             delayJump = 0f;
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.CompareTag("Zipline"))
-        {
-            ziplineText.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Zipline"))
-        {
-            ziplineText.SetActive(false);
         }
     }
 
