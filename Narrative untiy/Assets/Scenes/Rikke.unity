@@ -623,6 +623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   qte: {fileID: 641194443}
+  failSceneName: DeathScene
 --- !u!4 &336694363
 Transform:
   m_ObjectHideFlags: 0
@@ -10961,13 +10962,13 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 336694362}
+        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
+        m_MethodName: TriggerQTE
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16797,12 +16798,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 5
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":114.399994,"yPos":157.400009},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Okay,
-    Gandalf I will go on this quest to save the world","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":388.800018,"yPos":162.2},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"No
-    thank you. I would like to stay home.","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":261.199982,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Frodo,
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":68.4000244,"yPos":157.400009},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Okay,
+    Gandalf I will go on this quest to save the world","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":342.800049,"yPos":162.2},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"No
+    thank you. I would like to stay home.","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":215.200012,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Frodo,
     I need you to get the Ring to Mordor or the whole of Middle earth will be in
-    grave danger!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":108,"yPos":251.200012},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Good!
-    Take your gardner and be on your way.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":385.6,"yPos":252},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Whhaatttt??!!!","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+    grave danger!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":62.00003,"yPos":251.200012},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Good!
+    Take your gardner and be on your way.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":339.600037,"yPos":252},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Whhaatttt??!!!","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -16817,7 +16818,19 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 336694362}
+        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
+        m_MethodName: TriggerQTE
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1787880423
 Transform:
   m_ObjectHideFlags: 0

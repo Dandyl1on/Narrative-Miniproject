@@ -5,19 +5,14 @@ public class Convo : MonoBehaviour
 {
     [SerializeField] private NPCConversation myConversation;
 
-    private void OnTriggerStay(Collider other)
-    { 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player"))
+            return;
 
-        if (other.CompareTag("Player"))
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                ConversationManager.Instance.StartConversation(myConversation);
-            
-            }
+            ConversationManager.Instance.StartConversation(myConversation);
         }
-    
     }
-
-
 }
