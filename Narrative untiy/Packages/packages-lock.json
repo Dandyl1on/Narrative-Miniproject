@@ -16,7 +16,7 @@
       }
     },
     "com.unity.2d.tilemap.extras": {
-      "version": "4.1.0",
+      "version": "5.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -221,7 +221,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.7",
+      "version": "1.9.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
