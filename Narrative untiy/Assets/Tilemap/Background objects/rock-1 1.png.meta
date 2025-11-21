@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eebe35effbcd6a2469de6fa96f914199
+guid: f0500bbf8fd0c4845852f7152a5b6ca5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1003474795063195324
-    second: rock-2-Dark_0
+      213: -3283305167758506024
+    second: rock-1 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,10 +100,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock-2-Dark_0
+      name: rock-1 1_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 41
         width: 16
         height: 16
@@ -115,36 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44943339df0f212f0800000000000000
-      internalID: -1003474795063195324
+      spriteID: 8d7cc8a785b5f62d0800000000000000
+      internalID: -3283305167758506024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-2-Dark_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 41
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba27049e794c2be46a4bf39c2e79c088
-      internalID: -1133952508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rock-2-Dark_2
+      name: rock-1 1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -159,36 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb8bda0dfdae3a341b00eb0afdd0670b
-      internalID: -1412794442
+      spriteID: 496d14337817d204d85a1b9f6cf8b3e7
+      internalID: -70909980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-2-Dark_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 41
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 747efac09d62f0949b09002d4398767b
-      internalID: -1952053837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rock-2-Dark_4
+      name: rock-1 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -203,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e82d1e0adfc491a438a3b9c76c0562cc
-      internalID: -886156518
+      spriteID: 35f828c04c381b24fb899e65f9960eba
+      internalID: 1288314967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-2-Dark_5
+      name: rock-1 1_3
       rect:
         serializedVersion: 2
         x: 16
@@ -225,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed22f5e4855d0d94e949a4ff1e0fdd5b
-      internalID: 1664790233
+      spriteID: 15b18ed8c180784408767115d73ba951
+      internalID: -46695724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-2-Dark_6
+      name: rock-1 1_4
       rect:
         serializedVersion: 2
         x: 32
@@ -247,36 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01ddee777cd6d8f468c2deb775907d67
-      internalID: 1995662750
+      spriteID: 14058de39ae00334796c4bf75e12f6ac
+      internalID: 1933441986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-2-Dark_7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 25
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f842b749e5f58d24dba6c3af2253f5e1
-      internalID: -1926200362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rock-2-Dark_8
+      name: rock-1 1_5
       rect:
         serializedVersion: 2
         x: 0
@@ -291,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8629342352c335a4b8e14a7bf841b3af
-      internalID: 1370144533
+      spriteID: 37a94e4f892172349bcca823428d55c3
+      internalID: -641970346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-2-Dark_9
+      name: rock-1 1_6
       rect:
         serializedVersion: 2
         x: 16
@@ -313,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1732cb9c688562240abc715f9b0af2ad
-      internalID: -1138671638
+      spriteID: 24757e658b016324da47f78cd288384b
+      internalID: 767961158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-2-Dark_10
+      name: rock-1 1_7
       rect:
         serializedVersion: 2
         x: 32
@@ -335,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c4168ff6dd860241a4c731121dc430b
-      internalID: -1796261087
+      spriteID: ac87a2a3156d95c46b10f0204752e75b
+      internalID: 96531769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-2-Dark_11
+      name: rock-1 1_8
       rect:
         serializedVersion: 2
         x: 48
@@ -357,8 +291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e12dc67248aeeb647a708832b93b284f
-      internalID: -1015180158
+      spriteID: 34e74e0517ee6ee47bbe1e56b1ac6f93
+      internalID: 2113403278
       vertices: []
       indices: 
       edges: []
@@ -367,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2224ca26da82ca14f99019cbaf1c0d8e
+    spriteID: 24854b36ebf6d4c4ab2b1cd30ee3742f
     internalID: 0
     vertices: []
     indices: 
@@ -379,18 +313,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      rock-2-Dark_0: -1003474795063195324
-      rock-2-Dark_1: -1133952508
-      rock-2-Dark_10: -1796261087
-      rock-2-Dark_11: -1015180158
-      rock-2-Dark_2: -1412794442
-      rock-2-Dark_3: -1952053837
-      rock-2-Dark_4: -886156518
-      rock-2-Dark_5: 1664790233
-      rock-2-Dark_6: 1995662750
-      rock-2-Dark_7: -1926200362
-      rock-2-Dark_8: 1370144533
-      rock-2-Dark_9: -1138671638
+      rock-1 1_0: -3283305167758506024
+      rock-1 1_1: -70909980
+      rock-1 1_2: 1288314967
+      rock-1 1_3: -46695724
+      rock-1 1_4: 1933441986
+      rock-1 1_5: -641970346
+      rock-1 1_6: 767961158
+      rock-1 1_7: 96531769
+      rock-1 1_8: 2113403278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
