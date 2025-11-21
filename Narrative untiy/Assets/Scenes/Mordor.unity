@@ -1849,7 +1849,7 @@ GameObject:
   - component: {fileID: 693372589}
   - component: {fileID: 693372588}
   m_Layer: 0
-  m_Name: 3nd Middleground
+  m_Name: 3rd Middleground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
