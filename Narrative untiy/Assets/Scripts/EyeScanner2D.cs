@@ -5,32 +5,35 @@ public class EyeScanner2D : MonoBehaviour
 {
     [Header("View Settings")]
     [SerializeField] private float viewRadius = 10f;
-    [SerializeField] private float viewAngle = 45f;
+    [SerializeField] private float viewAngle = 60f;
 
-    [Header("Sweep Settings")]
-    [Tooltip("Rotationshastighed i grader pr. sekund")]
+    [Header("Sweep Rotation")]
     [SerializeField] private float rotationSpeed = 30f;
-
-    [Tooltip("Min. offset fra startvinkel (grader, negativ)")]
     [SerializeField] private float minSweepAngle = -60f;
-
-    [Tooltip("Max. offset fra startvinkel (grader, positiv)")]
     [SerializeField] private float maxSweepAngle = 60f;
 
     [Header("Layers")]
     [SerializeField] private LayerMask playerMask;
-    [SerializeField] private LayerMask obstacleMask; // cover
+    [SerializeField] private LayerMask obstacleMask;
 
-    [Header("Events")]
-    public UnityEvent OnPlayerSpotted;
+    [Header("Enemy Link")]
+    [SerializeField] private StealthEnemy2D linkedEnemy;
 
-    private float baseAngle;    // start-rotation (Z)
-    private float sweepAngle;   // nuværende offset fra baseAngle
-    private int sweepDir = 1;   // 1 = mod max, -1 = mod min
+    [Header("Facing (fra fjendens sprite)")]
+    [Tooltip("SpriteRenderer på fjenden (den der bliver flipX'et når han vender).")]
+    [SerializeField] private SpriteRenderer enemySprite;
+
+    [Tooltip("TRUE hvis fjendens sprite kigger mod højre som default (uden flipX). FALSE hvis den kigger mod venstre.")]
+    [SerializeField] private bool spriteFacesRightByDefault = true;
+
+    public UnityEvent OnPlayerSpottedEvent;
+
+    private float baseAngle;
+    private float sweepAngle;
+    private int sweepDir = 1;
 
     private void Awake()
     {
-        // Gem startvinkel (Z-komponenten)
         baseAngle = transform.eulerAngles.z;
         sweepAngle = 0f;
     }
@@ -43,10 +46,8 @@ public class EyeScanner2D : MonoBehaviour
 
     private void UpdateSweepRotation()
     {
-        // Opdater offset
         sweepAngle += rotationSpeed * sweepDir * Time.deltaTime;
 
-        // Skift retning ved endepunkter
         if (sweepAngle > maxSweepAngle)
         {
             sweepAngle = maxSweepAngle;
@@ -58,30 +59,53 @@ public class EyeScanner2D : MonoBehaviour
             sweepDir = 1;
         }
 
-        // Sæt rotation (kun Z)
         float z = baseAngle + sweepAngle;
         transform.rotation = Quaternion.Euler(0f, 0f, z);
     }
 
+    private Vector2 GetForward()
+    {
+        // Udgangspunkt: samme som før (cone peger nedad)
+        Vector2 forward = -transform.up;
+
+        // Spejl vandret hvis fjenden er vendt (flipX)
+        if (enemySprite != null)
+        {
+            int dir;
+            if (spriteFacesRightByDefault)
+            {
+                // Default = højre. flipX = true => fjenden kigger venstre
+                dir = enemySprite.flipX ? -1 : 1;
+            }
+            else
+            {
+                // Default = venstre. flipX = true => fjenden kigger højre
+                dir = enemySprite.flipX ? 1 : -1;
+            }
+
+            // Spejl kun på X-aksen
+            forward = new Vector2(forward.x * dir, forward.y);
+        }
+
+        return forward.normalized;
+    }
+
     private void ScanForPlayer()
     {
-        // Find alle spillere inden for radius
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, viewRadius, playerMask);
 
-        // Din cone peger NED: forward = -transform.up
-        Vector2 forward = -transform.up;
+        Vector2 forward = GetForward();
 
         foreach (var hit in hits)
         {
+            if (hit == null) continue;
+
             Vector2 dirToTarget = (hit.transform.position - transform.position).normalized;
             float angleToTarget = Vector2.Angle(forward, dirToTarget);
 
-            // Kun inden for keglevinklen
-            if (angleToTarget < viewAngle * 0.5f)
+            if (angleToTarget <= viewAngle * 0.5f)
             {
                 float distToTarget = Vector2.Distance(transform.position, hit.transform.position);
-
-                // Raycast der kan ramme både Player og Cover
                 int mask = playerMask | obstacleMask;
 
                 RaycastHit2D firstHit = Physics2D.Raycast(
@@ -93,16 +117,18 @@ public class EyeScanner2D : MonoBehaviour
 
                 if (firstHit.collider != null)
                 {
-                    // Hvis det første hit er spilleren → set
                     if (firstHit.collider.CompareTag("Player"))
                     {
-                        Debug.Log("[EyeScanner2D] Player spotted (no cover in front).");
-                        OnPlayerSpotted?.Invoke();
+                        // Spottet uden cover
+                        if (linkedEnemy != null)
+                        {
+                            linkedEnemy.OnPlayerSpotted();
+                        }
+
+                        OnPlayerSpottedEvent?.Invoke();
                         return;
                     }
-
-                    // Hvis første hit er cover → spilleren er skjult
-                    // Debug.Log("[EyeScanner2D] View blocked by: " + firstHit.collider.name);
+                    // Hvis første hit er cover → spilleren er skjult, gør intet
                 }
             }
         }
@@ -112,5 +138,13 @@ public class EyeScanner2D : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, viewRadius);
+
+        Vector2 forward = Application.isPlaying ? GetForward() : -transform.up;
+        float halfAngle = viewAngle * 0.5f;
+        Vector3 rightDir = Quaternion.Euler(0, 0,  halfAngle) * forward;
+        Vector3 leftDir  = Quaternion.Euler(0, 0, -halfAngle) * forward;
+
+        Gizmos.DrawLine(transform.position, transform.position + rightDir * viewRadius);
+        Gizmos.DrawLine(transform.position, transform.position + leftDir  * viewRadius);
     }
 }

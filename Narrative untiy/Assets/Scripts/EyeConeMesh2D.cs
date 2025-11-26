@@ -3,13 +3,20 @@ using UnityEngine;
 public class EyeConeMesh2D : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private Transform meshRoot;      // <- SÆT DENNE TIL VisionMesh (child)
-    [SerializeField] private LayerMask obstacleMask;  // Cover-laget
+    [SerializeField] private Transform meshRoot;      // VisionMesh-child
+    [SerializeField] private LayerMask obstacleMask;  // Cover-lag
 
     [Header("Shape Settings")]
     [SerializeField] private float viewRadius = 10f;
-    [SerializeField] private float viewAngle = 45f;
+    [SerializeField] private float viewAngle = 60f;
     [SerializeField] private int rayCount = 60;
+
+    [Header("Facing (samme som EyeScanner2D)")]
+    [Tooltip("Samme SpriteRenderer som på fjenden (bliver flipX'et).")]
+    [SerializeField] private SpriteRenderer enemySprite;
+
+    [Tooltip("TRUE hvis fjendens sprite kigger mod højre som default. FALSE hvis den kigger mod venstre.")]
+    [SerializeField] private bool spriteFacesRightByDefault = true;
 
     private Mesh _mesh;
     private MeshFilter _meshFilter;
@@ -19,12 +26,11 @@ public class EyeConeMesh2D : MonoBehaviour
     {
         if (meshRoot == null)
         {
-            Debug.LogError("[EyeConeMesh2D] meshRoot mangler – drag VisionMesh child ind i inspector.");
+            Debug.LogError("[EyeConeMesh2D] meshRoot mangler – drag VisionMesh ind i inspector.");
             enabled = false;
             return;
         }
 
-        // Sørg for at VisionMesh har MeshFilter + MeshRenderer
         _meshFilter = meshRoot.GetComponent<MeshFilter>();
         if (_meshFilter == null)
             _meshFilter = meshRoot.gameObject.AddComponent<MeshFilter>();
@@ -37,14 +43,12 @@ public class EyeConeMesh2D : MonoBehaviour
         _mesh.name = "VisionConeMesh";
         _meshFilter.mesh = _mesh;
 
-        // Tegn foran andre sprites
-        _meshRenderer.sortingLayerName = "Default";    // evt. dit foreground-layer
-        _meshRenderer.sortingOrder = 50;               // højt tal = foran
+        _meshRenderer.sortingLayerName = "Default";
+        _meshRenderer.sortingOrder = 50;
 
         if (_meshRenderer.sharedMaterial == null)
         {
-            Debug.LogWarning("[EyeConeMesh2D] Intet material på MeshRenderer – " +
-                             "giv VisionMesh et material med shader 'Sprites/Default' og farve med alpha.");
+            Debug.LogWarning("[EyeConeMesh2D] Intet material – giv VisionMesh et material med 'Sprites/Default' og alpha.");
         }
     }
 
@@ -53,16 +57,41 @@ public class EyeConeMesh2D : MonoBehaviour
         GenerateMesh();
     }
 
+    private Vector2 GetForward()
+    {
+        // Samme udgangspunkt som før: cone pegede nedad
+        Vector2 forward = -transform.up;
+
+        // Spejl vandret baseret på fjendens flipX (samme logik som EyeScanner2D)
+        if (enemySprite != null)
+        {
+            int dir;
+            if (spriteFacesRightByDefault)
+            {
+                dir = enemySprite.flipX ? -1 : 1;
+            }
+            else
+            {
+                dir = enemySprite.flipX ? 1 : -1;
+            }
+
+            forward = new Vector2(forward.x * dir, forward.y);
+        }
+
+        return forward.normalized;
+    }
+
     private void GenerateMesh()
     {
+        if (!enabled) return;
+
         Vector3 origin = transform.position;
-        Vector3 forward = -transform.up; // din cone peger NEDAD
+        Vector3 forward = GetForward();
 
         int vertexCount = rayCount + 2;
         var vertices = new Vector3[vertexCount];
         var triangles = new int[rayCount * 3];
 
-        // centerpunkt i meshRoot's lokale space
         vertices[0] = meshRoot.InverseTransformPoint(origin);
 
         float halfAngle = viewAngle * 0.5f;
