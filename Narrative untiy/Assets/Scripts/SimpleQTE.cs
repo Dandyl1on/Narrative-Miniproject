@@ -115,6 +115,11 @@ public class SimpleQTE : MonoBehaviour
 
         UpdateUI();
     }
+    
+    public void SetSequence(string newSequence)
+    {
+        sequence = newSequence.ToUpper();
+    }
 
     private void Success()
     {

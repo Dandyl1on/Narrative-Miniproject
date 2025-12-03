@@ -1,3 +1,5 @@
+using System;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Frodowalking : MonoBehaviour
@@ -55,7 +57,6 @@ public class Frodowalking : MonoBehaviour
     
     void Jump()
     {
-        Debug.Log("Jump in function");
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
     }
     
@@ -67,6 +68,14 @@ public class Frodowalking : MonoBehaviour
             falls = false;
             delayJump = 0f;
         }
+        if (col.gameObject.CompareTag("HidePlace"))
+        {
+            Debug.Log("helo??");
+            int cover = LayerMask.NameToLayer("Cover");
+            gameObject.layer = cover;
+            Debug.Log(gameObject.layer);
+
+        }
     }
     private void OnCollisionExit2D(Collision2D other)
     {
@@ -74,5 +83,10 @@ public class Frodowalking : MonoBehaviour
         {
             grounded = false;
         }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        
     }
 }

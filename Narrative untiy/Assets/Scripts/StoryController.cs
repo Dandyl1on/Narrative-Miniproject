@@ -26,6 +26,16 @@ public class StoryController : MonoBehaviour
     /// Start en QTE-sekvens via SimpleQTE.
     /// Kaldes f.eks. fra StealthEnemy2D, EyeScanner2D, Convo-trigger osv.
     /// </summary>
+    public void SetQTESequence(string seq)
+    {
+        if (qte == null)
+        {
+            Debug.LogWarning("StoryController: No QTE reference.");
+            return;
+        }
+
+        qte.SetSequence(seq);
+    }
     public void TriggerQTE()
     {
         if (qte == null)
@@ -42,6 +52,7 @@ public class StoryController : MonoBehaviour
 
         Debug.Log("[StoryController] TriggerQTE – starter QTE.");
         qteRunning = true;
+        
 
         // Antager at SimpleQTE har en public StartQTE()-metode,
         // som bruger sine egne serialized settings (sequence, timer osv.).

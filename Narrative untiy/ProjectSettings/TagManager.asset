@@ -5,11 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
-  - Pond
-  - Flames
-  - Win
-  - Zipline
   - Sign
+  - HidePlace
   layers:
   - Default
   - TransparentFX

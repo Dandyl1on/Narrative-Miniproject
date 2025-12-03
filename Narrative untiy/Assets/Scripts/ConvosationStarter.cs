@@ -1,16 +1,14 @@
+using System;
 using DialogueEditor;
 using UnityEngine;
 
 public class Convo : MonoBehaviour
 {
-    [SerializeField] private NPCConversation myConversation;
+    public NPCConversation myConversation;
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        if (!other.CompareTag("Player"))
-            return;
-
-        if (Input.GetKeyDown(KeyCode.F))
+        if (col.CompareTag("Player"))
         {
             ConversationManager.Instance.StartConversation(myConversation);
         }
