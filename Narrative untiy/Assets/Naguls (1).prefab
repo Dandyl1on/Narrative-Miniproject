@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1859535257369574316}
   - component: {fileID: 4597410216941277730}
   - component: {fileID: 1839294869551049463}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 818779080670541620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.38, y: 0.68, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.56, y: 0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1.1017, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2196117371040817783}
@@ -105,11 +105,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d931d4d1b092a094da4d8c173288c974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EyeScanner2D
-  viewRadius: 10
+  viewRadius: 5
   viewAngle: 20
-  rotationSpeed: 30
-  minSweepAngle: -20
-  maxSweepAngle: 20
+  rotationSpeed: 15
+  minSweepAngle: -18
+  maxSweepAngle: -2
   playerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -137,8 +137,8 @@ MonoBehaviour:
   meshRoot: {fileID: 2196117371040817783}
   obstacleMask:
     serializedVersion: 2
-    m_Bits: 128
-  viewRadius: 10
+    m_Bits: 1
+  viewRadius: 5
   viewAngle: 20
   rayCount: 60
   enemySprite: {fileID: 3940344202622058800}
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 2196117371040817783}
   - component: {fileID: 253130502087624496}
   - component: {fileID: 8458331570885145406}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VisionMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,11 +243,11 @@ GameObject:
   - component: {fileID: 9138983442878337432}
   - component: {fileID: 7980895782229094933}
   - component: {fileID: 3940344202622058800}
-  - component: {fileID: 764504327110113022}
   - component: {fileID: 5700381253505682718}
   - component: {fileID: 4139827081943113050}
-  m_Layer: 0
-  m_Name: Naguls
+  - component: {fileID: 433868880463942740}
+  m_Layer: 8
+  m_Name: Naguls (1)
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -262,7 +262,7 @@ Transform:
   m_GameObject: {fileID: 4674396805180031538}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.83, y: -10.027, z: 0}
+  m_LocalPosition: {x: 122.07, y: -9.805963, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -337,7 +337,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 13
   m_Sprite: {fileID: 5983125115757627464, guid: 652304067e69b594f911116f79f36eb8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -349,8 +349,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &764504327110113022
-BoxCollider2D:
+--- !u!114 &5700381253505682718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674396805180031538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b4c5f81ec98d64a823576e91dc0534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StealthEnemy2D
+  patrolPointA: {fileID: 0}
+  patrolPointB: {fileID: 0}
+  patrolSpeed: 5
+  patrolSnapDistance: 0.1
+  player: {fileID: 0}
+  chaseSpeed: 6.5
+  attackDistance: 1.5
+  storyController: {fileID: 0}
+  spriteFacesRightByDefault: 1
+  stuckCheckInterval: 1
+  stuckPositionTolerance: 0.02
+  nazChoice: {fileID: 0}
+--- !u!50 &4139827081943113050
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674396805180031538}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 310a5d13c39d0934fbf8b5d2e6e6ef6f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!70 &433868880463942740
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -359,13 +410,13 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 310a5d13c39d0934fbf8b5d2e6e6ef6f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -383,65 +434,6 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 4}
-    newSize: {x: 4, y: 4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3, y: 4}
-  m_EdgeRadius: 0
---- !u!114 &5700381253505682718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4674396805180031538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9b4c5f81ec98d64a823576e91dc0534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StealthEnemy2D
-  patrolPointA: {fileID: 0}
-  patrolPointB: {fileID: 0}
-  patrolSpeed: 2
-  patrolSnapDistance: 0.1
-  player: {fileID: 0}
-  chaseSpeed: 3
-  attackDistance: 1.5
-  storyController: {fileID: 0}
-  spriteFacesRightByDefault: 1
-  stuckCheckInterval: 1
-  stuckPositionTolerance: 0.02
---- !u!50 &4139827081943113050
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4674396805180031538}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Offset: {x: 0, y: 0.09282637}
+  m_Size: {x: 4, y: 4.006377}
+  m_Direction: 0

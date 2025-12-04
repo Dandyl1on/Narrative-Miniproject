@@ -7,28 +7,46 @@ public class Frodowalking : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float horizontalInput;
     
-    [SerializeField] private float speed = 8f;
     [SerializeField] private float jumpPower;
     [SerializeField] private bool grounded;
     [SerializeField] private bool falls;
     [SerializeField] private float delayJump = 0.2f;
 
     [SerializeField] private Animator animator;
+    public float normalspeed = 6f;
+    public float damagedspeed = 4f;
+    public float currentmovement;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         animator = GetComponent<Animator>();
     }
+    public void SetNormalSpeed()
+    {
+        currentmovement = normalspeed;
+    }
+
+    public void SetDamagedSpeed()
+    { 
+        currentmovement = normalspeed-1;
+    }
+
+    public void SetDialogueSpeed(float s)
+    {
+        currentmovement = s;  
+    } 
 
     // Update is called once per frame
     private void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(horizontalInput * speed, rb.linearVelocity.y);
         animator.SetBool("isMoving", horizontalInput != 0);
         falls = rb.linearVelocity.y < -0.1f && !grounded;
-
+        rb.linearVelocity = new Vector2(horizontalInput * currentmovement, rb.linearVelocity.y);
+        
+        
         if (!grounded)
         {
             delayJump += Time.deltaTime;
@@ -68,14 +86,6 @@ public class Frodowalking : MonoBehaviour
             falls = false;
             delayJump = 0f;
         }
-        if (col.gameObject.CompareTag("HidePlace"))
-        {
-            Debug.Log("helo??");
-            int cover = LayerMask.NameToLayer("Cover");
-            gameObject.layer = cover;
-            Debug.Log(gameObject.layer);
-
-        }
     }
     private void OnCollisionExit2D(Collision2D other)
     {
@@ -85,8 +95,19 @@ public class Frodowalking : MonoBehaviour
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        
+        if (col.CompareTag("HidePlace"))
+        {
+            gameObject.layer = 7;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("HidePlace"))
+        {
+            gameObject.layer = 6;
+        }
     }
 }

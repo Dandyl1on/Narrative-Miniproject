@@ -1,3 +1,4 @@
+using DialogueEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,7 +17,8 @@ public class StoryController : MonoBehaviour
 
     [Header("Stealth Enemy (optional)")]
     [Tooltip("Fjenden som skal resettes efter QTE (for at undgå freeze).")]
-    [SerializeField] private StealthEnemy2D stealthEnemy;
+    [SerializeField] private StealthEnemy2D[] stealthEnemy;
+
 
     // --------------------------------------------------------------------
     // PUBLIC API – kaldes fra andre scripts (EyeScanner2D, Convo, osv.)
@@ -33,7 +35,6 @@ public class StoryController : MonoBehaviour
             Debug.LogWarning("StoryController: No QTE reference.");
             return;
         }
-
         qte.SetSequence(seq);
     }
     public void TriggerQTE()
@@ -52,11 +53,12 @@ public class StoryController : MonoBehaviour
 
         Debug.Log("[StoryController] TriggerQTE – starter QTE.");
         qteRunning = true;
-        
+
 
         // Antager at SimpleQTE har en public StartQTE()-metode,
         // som bruger sine egne serialized settings (sequence, timer osv.).
-        qte.StartQTE();
+        
+        //qte.StartQTE();
     }
 
     // --------------------------------------------------------------------
@@ -74,7 +76,10 @@ public class StoryController : MonoBehaviour
         // Fjende må ikke blive frosset – reset bevægelse/patrol.
         if (stealthEnemy != null)
         {
-            stealthEnemy.ResetAfterQTE();
+            foreach (var enemy in stealthEnemy)
+            {
+                enemy.ResetAfterQTE();
+            }
         }
 
         // Her kan du fortsætte story logik, hvis du har behov.
@@ -93,7 +98,10 @@ public class StoryController : MonoBehaviour
         // selvom vi evt. loader en ny scene bagefter.
         if (stealthEnemy != null)
         {
-            stealthEnemy.ResetAfterQTE();
+            foreach (var enemy in stealthEnemy)
+            {
+                enemy.ResetAfterQTE();
+            }
         }
 
         // Hvis du vil loade en death-scene ved fail:

@@ -1,3 +1,4 @@
+using DialogueEditor;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -40,6 +41,8 @@ public class StealthEnemy2D : MonoBehaviour
     // anti-stuck
     private float stuckTimer = 0f;
     private float lastXPos = 0f;
+
+    [SerializeField] private NPCConversation nazChoice;
 
     private void Awake()
     {
@@ -112,6 +115,7 @@ public class StealthEnemy2D : MonoBehaviour
 
     private void ChaseUpdate()
     {
+
         if (player == null)
             return;
 
@@ -197,6 +201,7 @@ public class StealthEnemy2D : MonoBehaviour
     {
         if (!qteActive && state == State.Patrol)
         {
+            ConversationManager.Instance.StartConversation(nazChoice);
             Debug.Log("[StealthEnemy2D] Player spotted – switching to Chase.");
             state = State.Chase;
         }
