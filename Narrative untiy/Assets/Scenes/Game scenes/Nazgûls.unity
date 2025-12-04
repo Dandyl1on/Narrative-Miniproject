@@ -488,26 +488,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2949218860744954990, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
-      propertyPath: cover.m_Bits
-      value: 128
-      objectReference: {fileID: 0}
-    - target: {fileID: 5917182006412185376, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 310a5d13c39d0934fbf8b5d2e6e6ef6f, type: 2}
-    - target: {fileID: 6045546776355200781, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045546776355200781, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045546776355200781, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
-      propertyPath: m_RenderingLayerMask
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7863495338184645978, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.94
@@ -552,18 +532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8902407553130595663, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5917182006412185376, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8902407553130595663, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 264417876}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
 --- !u!1 &221232169
 GameObject:
@@ -763,54 +735,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &264417870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8902407553130595663, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
-  m_PrefabInstance: {fileID: 200730814}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &264417876
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 264417870}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.048129395, y: -0.22388977}
-  m_Size: {x: 1.7061273, y: 3.370129}
-  m_Direction: 0
 --- !u!114 &264417877 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2949218860744954990, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
   m_PrefabInstance: {fileID: 200730814}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 264417870}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0206a124449e6cd47883ad3fdc9c6ab5, type: 3}
@@ -1501,6 +1431,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &466203127 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5700381253505682718, guid: 4f9bd10648f6efb48ba5e2871b138353, type: 3}
+  m_PrefabInstance: {fileID: 1305149080}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b4c5f81ec98d64a823576e91dc0534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StealthEnemy2D
 --- !u!1 &470748532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,6 +1644,30 @@ MonoBehaviour:
       - m_Target: {fileID: 2126833308}
         m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
         m_MethodName: StartQTE
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 264417877}
+        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
+        m_MethodName: SetDamagedSpeed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2126833308}
+        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
+        m_MethodName: setDeath
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23922,7 +23887,7 @@ MonoBehaviour:
   deathSceneName: DeathScene
   stealthEnemy:
   - {fileID: 1658914932}
-  - {fileID: 0}
+  - {fileID: 466203127}
 --- !u!4 &1868326117
 Transform:
   m_ObjectHideFlags: 0
@@ -23984,10 +23949,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 9
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":83.1999359,\"yPos\":151.7995},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fight\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":487.198975,\"yPos\":155.799988},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Run\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":270.4,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"OH
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":83.1999359,\"yPos\":151.7995},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fight\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":487.198853,\"yPos\":155.799988},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Run\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":270.4,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"OH
     NO a nazg\xFBl has spotted you, what will you do?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Your
     thoughts\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":73.59996,\"yPos\":288.0025},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"i
-    dont think that killed them... they are just shadows after all\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":485.5986,\"yPos\":291.200623},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    dont think that killed them... they are just shadows after all\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":485.5985,\"yPos\":291.200623},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
     think        i lo               lost them\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo
     (exhausted)\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
@@ -24004,7 +23969,55 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1868326116}
+        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
+        m_MethodName: SetQTESequence
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: swordfight
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2126833308}
+        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
+        m_MethodName: StartQTE
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 264417877}
+        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
+        m_MethodName: SetDamagedSpeed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2126833308}
+        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
+        m_MethodName: setDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1941553425
 GameObject:
   m_ObjectHideFlags: 0
@@ -26131,6 +26144,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Seconddeath: 0
 --- !u!4 &2126833309
 Transform:
   m_ObjectHideFlags: 0

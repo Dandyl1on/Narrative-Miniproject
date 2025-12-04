@@ -25,6 +25,12 @@ public class SimpleQTE : MonoBehaviour
     private float elapsed = 0f;
     private bool isActive = false;
 
+    public bool Seconddeath;
+
+    public void setDeath()
+    {
+        Seconddeath = true;
+    }
     private void Start()
     {
         if (uiRoot != null)
@@ -89,6 +95,11 @@ public class SimpleQTE : MonoBehaviour
     /// </summary>
     public void StartQTE()
     {
+        if (Seconddeath)
+        {
+            Fail();
+            return;
+        }
         if (string.IsNullOrWhiteSpace(sequence))
         {
             Debug.LogWarning("SimpleQTE: sequence er tom.");

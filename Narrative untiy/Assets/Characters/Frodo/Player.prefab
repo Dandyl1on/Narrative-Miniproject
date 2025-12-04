@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6045546776355200781}
   - component: {fileID: 4979432662312075051}
   - component: {fileID: 3410780085923247162}
-  - component: {fileID: 5917182006412185376}
   - component: {fileID: 2949218860744954990}
+  - component: {fileID: 8479362621935436750}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -143,8 +143,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &5917182006412185376
-BoxCollider2D:
+--- !u!114 &2949218860744954990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8902407553130595663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0206a124449e6cd47883ad3fdc9c6ab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Frodowalking
+  rb: {fileID: 4979432662312075051}
+  horizontalInput: 0
+  jumpPower: 5
+  grounded: 0
+  falls: 0
+  delayJump: 0.2
+  animator: {fileID: 3410780085923247162}
+  normalspeed: 6
+  damagedspeed: 4
+  currentmovement: 0
+--- !u!70 &8479362621935436750
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -153,7 +175,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 6d20f88bf9ef2df4496342224acb106b, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -177,35 +199,6 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.07340187, y: -0.25569808}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.266667, y: 4.266667}
-    newSize: {x: 4.266667, y: 4.266667}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.6608745, y: 3.2379525}
-  m_EdgeRadius: 0
---- !u!114 &2949218860744954990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8902407553130595663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0206a124449e6cd47883ad3fdc9c6ab5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Frodowalking
-  rb: {fileID: 4979432662312075051}
-  horizontalInput: 0
-  speed: 6
-  jumpPower: 5
-  grounded: 0
-  falls: 0
-  delayJump: 0.2
-  animator: {fileID: 3410780085923247162}
+  m_Offset: {x: 0.025477225, y: -0.25477952}
+  m_Size: {x: 1.5150448, y: 3.5532827}
+  m_Direction: 0

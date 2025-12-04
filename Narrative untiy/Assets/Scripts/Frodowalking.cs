@@ -30,7 +30,7 @@ public class Frodowalking : MonoBehaviour
 
     public void SetDamagedSpeed()
     { 
-        currentmovement = normalspeed-1;
+        currentmovement = damagedspeed;
     }
 
     public void SetDialogueSpeed(float s)

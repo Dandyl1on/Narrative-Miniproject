@@ -1,3 +1,4 @@
+using DialogueEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -32,10 +33,18 @@ public class EyeScanner2D : MonoBehaviour
     private float sweepAngle;
     private int sweepDir = 1;
 
+    [SerializeField] private NPCConversation Spotted;
+    public bool hasTriggered;
+
     private void Awake()
     {
         baseAngle = transform.eulerAngles.z;
         sweepAngle = 0f;
+    }
+    
+    public void ResetVision()
+    {
+        hasTriggered = false;
     }
 
     private void Update()
@@ -117,13 +126,12 @@ public class EyeScanner2D : MonoBehaviour
 
                 if (firstHit.collider != null)
                 {
-                    if (firstHit.collider.CompareTag("Player"))
+                    if (!hasTriggered && firstHit.collider.CompareTag("Player"))
                     {
-                        // Spottet uden cover
+                        hasTriggered = true;
+
                         if (linkedEnemy != null)
-                        {
                             linkedEnemy.OnPlayerSpotted();
-                        }
 
                         OnPlayerSpottedEvent?.Invoke();
                         return;
