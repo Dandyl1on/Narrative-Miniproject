@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Game scenes/MainMenu.unity
     guid: 4b8766128170e4f4d875db43e327dff1
   - enabled: 1
-    path: Assets/Scenes/DeathScene.unity
+    path: Assets/Scenes/Game scenes/DeathScene.unity
     guid: 5287d2c16619b744f934bcd7da5abb7a
   - enabled: 1
     path: Assets/Scenes/Game scenes/Hobbitton.unity
