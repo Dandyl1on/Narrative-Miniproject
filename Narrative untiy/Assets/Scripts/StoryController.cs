@@ -19,6 +19,9 @@ public class StoryController : MonoBehaviour
     [Tooltip("Fjenden som skal resettes efter QTE (for at undgå freeze).")]
     [SerializeField] private StealthEnemy2D[] stealthEnemy;
 
+    private bool Mountdoombool;
+    
+
 
     // --------------------------------------------------------------------
     // PUBLIC API – kaldes fra andre scripts (EyeScanner2D, Convo, osv.)
@@ -82,6 +85,11 @@ public class StoryController : MonoBehaviour
             }
         }
 
+        if (Mountdoombool)
+        {
+            MountDoom();
+        }
+        
         // Her kan du fortsætte story logik, hvis du har behov.
         // Fx: gå til næste story step, enable næste trigger osv.
     }
@@ -113,5 +121,15 @@ public class StoryController : MonoBehaviour
 
         // Hvis du ikke vil loade scene, men fx bare resette level eller skade spilleren,
         // kan du lægge den logik her i stedet.
+    }
+
+    public void setMountdoombool()
+    {
+        Mountdoombool = true;
+    }
+
+    public void MountDoom()
+    {
+        SceneManager.LoadScene("Mount Doom");
     }
 }

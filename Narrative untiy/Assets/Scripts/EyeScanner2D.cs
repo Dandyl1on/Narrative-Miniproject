@@ -1,3 +1,4 @@
+using System;
 using DialogueEditor;
 using UnityEngine;
 using UnityEngine.Events;
@@ -34,7 +35,10 @@ public class EyeScanner2D : MonoBehaviour
     private int sweepDir = 1;
 
     [SerializeField] private NPCConversation Spotted;
-    public bool hasTriggered;
+    
+    
+    private bool detectionLocked = false;   // prevents retriggering
+    private bool playerCurrentlyVisible = false; // tracks if player is inside cone
 
     private void Awake()
     {
@@ -42,10 +46,6 @@ public class EyeScanner2D : MonoBehaviour
         sweepAngle = 0f;
     }
     
-    public void ResetVision()
-    {
-        hasTriggered = false;
-    }
 
     private void Update()
     {
@@ -98,11 +98,13 @@ public class EyeScanner2D : MonoBehaviour
 
         return forward.normalized;
     }
-
+    
+    
     private void ScanForPlayer()
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, viewRadius, playerMask);
+        bool playerSeenThisFrame = false;
 
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, viewRadius, playerMask);
         Vector2 forward = GetForward();
 
         foreach (var hit in hits)
@@ -124,23 +126,38 @@ public class EyeScanner2D : MonoBehaviour
                     mask
                 );
 
-                if (firstHit.collider != null)
+                if (firstHit.collider != null && firstHit.collider.CompareTag("Player"))
                 {
-                    if (!hasTriggered && firstHit.collider.CompareTag("Player"))
+                    playerSeenThisFrame = true;
+
+                    // Trigger detection ONLY once
+                    if (!detectionLocked)
                     {
-                        hasTriggered = true;
+                        detectionLocked = true;
 
                         if (linkedEnemy != null)
                             linkedEnemy.OnPlayerSpotted();
 
                         OnPlayerSpottedEvent?.Invoke();
-                        return;
                     }
-                    // Hvis første hit er cover → spilleren er skjult, gør intet
+
+                    break; // no need to check more hits
                 }
             }
         }
+
+        // Update "player inside cone" state
+        playerCurrentlyVisible = playerSeenThisFrame;
+
+        // If player is NOT visible anymore → unlock detection
+        if (!playerCurrentlyVisible)
+        {
+            detectionLocked = false;
+        }
     }
+
+
+    
 
     private void OnDrawGizmosSelected()
     {

@@ -31,6 +31,11 @@ public class SimpleQTE : MonoBehaviour
     {
         Seconddeath = true;
     }
+
+    public void resetdeath()
+    {
+        Seconddeath = false;
+    }
     private void Start()
     {
         if (uiRoot != null)
