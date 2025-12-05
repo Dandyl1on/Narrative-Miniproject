@@ -263,7 +263,7 @@ Transform:
   m_GameObject: {fileID: 148062513}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.94, y: 0, z: 0}
+  m_LocalPosition: {x: -23.9, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -769,44 +769,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 10
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":267.999969,"yPos":162.200027},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Okay
-    Gandalf!","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":502.400146,"yPos":161.400009},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"no
-    Gandalf please 5 more minutes","parentUIDs":[0],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":36.7999954,"yPos":159.799988},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"nah
-    i dont want to","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":6},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":true,"xPos":270.4,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Frodo,
-    you must go throw the ring into Mordor, now!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":505.6001,"yPos":281.600037},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"YOU
-    FOOL!!! there is no time for sleep. GO! NOW!","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf
-    (Angry)","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 24
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":6.10351563E-05,\"yPos\":118.200043},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Refuse\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":370.400269,\"yPos\":122.200012},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Accept\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-123.200027,\"yPos\":422.1999},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Refuse\",\"parentUIDs\":[20],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":140.000031,\"yPos\":421.399719},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Okay.\",\"parentUIDs\":[20],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":208.799988,\"yPos\":-102.000031},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Frodo,
+    the Ring you have is a large part of the dark lord Saurons soul!! \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":204.799927,\"yPos\":-0.00016784668},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"If
+    he gets it, he will bring darkness to the world unless you throw it in the fires
+    of Mount Doom where it was made.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-0.7999878,\"yPos\":196.000153},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No,
+    i will not risk my life like that. It\xB4s a suicide mission. Give it to someone
+    else\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":372.800171,\"yPos\":204.000092},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"WHAT??
+    Then I must hurry to Mount Doom\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":3.20001221,\"yPos\":307.2},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"YOU
+    FOOL!! Only you can take the Ring to Mordor, everyone else will be corrupted
+    by the Rings power\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":139.199982,\"yPos\":503.9995},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Okay.
+    If only i can do it.\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1657314887}
+  - {fileID: 1657314888}
+  - {fileID: 1657314892}
+  - {fileID: 1657314891}
   - {fileID: 1657314890}
   - {fileID: 1657314889}
-  - {fileID: 1657314888}
-  - {fileID: 1657314891}
+  - {fileID: 1657314894}
+  - {fileID: 1657314893}
+  - {fileID: 1657314900}
+  - {fileID: 1657314899}
+  - {fileID: 1657314898}
+  - {fileID: 1657314897}
+  - {fileID: 1657314896}
+  - {fileID: 1657314895}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1599308377}
-        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
-        m_MethodName: SetSequence
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: gobacktosleepandsnooze
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1599308377}
-        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
-        m_MethodName: StartQTE
+      - m_Target: {fileID: 1071386605}
+        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
+        m_MethodName: SetNormalSpeed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1023,7 +1023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -271.77
+      value: 362
       objectReference: {fileID: 0}
     - target: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1205,6 +1205,7 @@ Transform:
   - {fileID: 1617993198}
   - {fileID: 315974251}
   - {fileID: 2003845573}
+  - {fileID: 1239642975}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &592824065
@@ -17592,7 +17593,7 @@ Transform:
   m_GameObject: {fileID: 692381846}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.94, y: 0, z: 0}
+  m_LocalPosition: {x: 23.9, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18918,7 +18919,7 @@ Transform:
   m_GameObject: {fileID: 990703174}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.94, y: 0, z: -0}
+  m_LocalPosition: {x: -23.9, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18992,11 +18993,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7863495338184645978, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.999344
+      value: 76.19
       objectReference: {fileID: 0}
     - target: {fileID: 7863495338184645978, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.7188187
+      value: -5.45
       objectReference: {fileID: 0}
     - target: {fileID: 7863495338184645978, guid: e572ac681bbf5074e9e3ddc49f4b61c8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19311,6 +19312,98 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1239642974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1239642975}
+  - component: {fileID: 1239642977}
+  - component: {fileID: 1239642976}
+  m_Layer: 0
+  m_Name: Sign trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1239642975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239642974}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.55, y: -2.55, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 529651388}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1239642976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239642974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f39058fadae8f498d1435915df8eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Convo
+  myConversation: {fileID: 1617993199}
+--- !u!61 &1239642977
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239642974}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.69781494, y: 0.43799067}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.39563, y: 4.192136}
+  m_EdgeRadius: 0
 --- !u!1 &1259595126
 GameObject:
   m_ObjectHideFlags: 0
@@ -19486,8 +19579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 2
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":303.9997,"yPos":80.40001},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Welcome
-    home brave travellers! Thank you for saving the world.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":303.599731,"yPos":195.200012},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":270.4,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Welcome
+    home brave travellers! Thank you for saving the world.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":270.000031,"yPos":136.8},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"I
     know it''s been a hard and long journey, but it has all been worth it to see
     the world as peaceful as ever.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -27530,9 +27623,9 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
-        m_MethodName: loadNauzghoul
+      - m_Target: {fileID: 847871412}
+        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
+        m_MethodName: Nazguls
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -27611,10 +27704,10 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1599308377}
-        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
-        m_MethodName: SetSequence
-        m_Mode: 5
+      - m_Target: {fileID: 847871412}
+        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
+        m_MethodName: OnQTEFailHandler
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -27641,10 +27734,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1071386605}
+        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
+        m_MethodName: SetDialogueSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: -274977241970372861, guid: d0e61280d23eb454cb6ff0d115dcd686, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &1494273354 stripped
 Transform:
@@ -27677,7 +27782,7 @@ Transform:
   m_GameObject: {fileID: 1498812293}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.94, y: 0, z: 0}
+  m_LocalPosition: {x: 23.9, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27754,7 +27859,7 @@ GameObject:
   - component: {fileID: 1560075577}
   - component: {fileID: 1560075578}
   m_Layer: 0
-  m_Name: GandalfExplains
+  m_Name: Narrator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27847,17 +27952,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
-  CurrentIDCounter: 2
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":270.4,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"The
-    ring that your uncel gave you is more then just a band of gold. It is the last
-    shard of the Dark Lord, Sauron\u2019s own soul. He is trying to get his full
-    strength back to overtake and destroy all of Middle Earth, and as long as the
-    Ring exists, Sauron cannot be truly defeated.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":252.000031,\"yPos\":215.200012},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"He
-    will search for the Ring, but there is one path he does not expect, one small
-    chance overlooked by pride and power. A hobbit, humble and unknown, bearing the
-    Ring not for glory, but out of courage and love for home.\\nOnly by casting the
-    Ring into the fire where it was forged, in Mount Doom, can you unmake it forever.
-    There, and only there, will Sauron be destroyed.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  CurrentIDCounter: 4
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":309.5999,"yPos":64.3999939},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"In
+    the ancient days, Sauron poured much of his power into the One Ring, for through
+    it he could rule all others, Elven, Dwarven and human.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Narrator","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":313.599976,"yPos":230.399963},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"His
+    eye searches for the treasure he lost. Should he regain the Ring, all free peoples
+    would fall into darkness, and hope itself would wither","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Narrator","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -27865,6 +27965,7 @@ MonoBehaviour:
   NodeSerializedDataList:
   - {fileID: 1638118293}
   - {fileID: 1638118294}
+  - {fileID: 1638118295}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -27934,6 +28035,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Seconddeath: 0
 --- !u!4 &1599308378
 Transform:
   m_ObjectHideFlags: 0
@@ -32527,10 +32629,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 6
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":444.000031,"yPos":158.200012},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"No
-    - Stay here and hide from Gandalf","parentUIDs":[0],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":176,"yPos":155.800018},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes
-    - Leave the shire and begin your adventure","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":4},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":true,"xPos":270.4,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Are
-    you sure you want to leave the shire?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":440.800018,"yPos":213.400009},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"No
+    - Stay here and hide from Gandalf","parentUIDs":[0],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":159.199966,"yPos":216.6},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes
+    - Leave the shire and begin your adventure","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":4},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":true,"xPos":288.8,"yPos":82},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Are
+    you sure you want to leave the shire?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sign","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -32545,19 +32647,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1599308377}
-        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
-        m_MethodName: SetSequence
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: lettheworldburn
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1638118288
 GameObject:
   m_ObjectHideFlags: 0
@@ -32572,6 +32662,7 @@ GameObject:
   - component: {fileID: 1638118290}
   - component: {fileID: 1638118293}
   - component: {fileID: 1638118294}
+  - component: {fileID: 1638118295}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -32668,7 +32759,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
+  Icon: {fileID: 3945645945496119514, guid: da7fb182a1ce3df44af6d3c754f0c096, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1638118294
 MonoBehaviour:
@@ -32687,7 +32778,26 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
+  Icon: {fileID: -1211361969681809708, guid: 80f713458144fbb4f875047b701aceff, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1638118295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638118288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 3
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!1 &1657314881
 GameObject:
@@ -32699,10 +32809,19 @@ GameObject:
   m_Component:
   - component: {fileID: 1657314883}
   - component: {fileID: 1657314887}
+  - component: {fileID: 1657314888}
+  - component: {fileID: 1657314892}
+  - component: {fileID: 1657314891}
   - component: {fileID: 1657314890}
   - component: {fileID: 1657314889}
-  - component: {fileID: 1657314888}
-  - component: {fileID: 1657314891}
+  - component: {fileID: 1657314894}
+  - component: {fileID: 1657314893}
+  - component: {fileID: 1657314900}
+  - component: {fileID: 1657314899}
+  - component: {fileID: 1657314898}
+  - component: {fileID: 1657314897}
+  - component: {fileID: 1657314896}
+  - component: {fileID: 1657314895}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -32770,20 +32889,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1071386605}
-        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
-        m_MethodName: SetNormalSpeed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  NodeID: 8
+      m_Calls: []
+  NodeID: 10
   TMPFont: {fileID: 0}
   Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
   Audio: {fileID: 0}
@@ -32802,23 +32909,92 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1071386605}
+        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
+        m_MethodName: SetNormalSpeed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NodeID: 7
+  NodeID: 14
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &1657314890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 847871412}
+        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
+        m_MethodName: OnQTEFailHandler
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  NodeID: 13
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1657314891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 12
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1657314892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 11
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1657314893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32845,11 +33021,49 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NodeID: 6
+  NodeID: 16
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
---- !u!114 &1657314891
+--- !u!114 &1657314894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 15
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1657314895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 23
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 347059859425484950, guid: 99f8a45a5a7fc8744bfddc30d9a8bbfa, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1657314896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32864,21 +33078,9 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1599308377}
-        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
-        m_MethodName: SetSequence
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: gobacktosleepandsnooze
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1599308377}
-        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
-        m_MethodName: StartQTE
+      - m_Target: {fileID: 1071386605}
+        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
+        m_MethodName: SetNormalSpeed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -32888,9 +33090,97 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NodeID: 9
+  NodeID: 22
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1657314897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 847871412}
+        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
+        m_MethodName: OnQTEFailHandler
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  NodeID: 21
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1657314898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 20
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1657314899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 18
+  TMPFont: {fileID: 0}
+  Icon: {fileID: -2468379580401391492, guid: 352df6f477845cf4ba1d5a1bfcf5eb18, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1657314900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657314881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 17
+  TMPFont: {fileID: 0}
+  Icon: {fileID: -3380270481081888905, guid: 8de0e0281a7f3624385af92c5e994615, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1709263929
 GameObject:

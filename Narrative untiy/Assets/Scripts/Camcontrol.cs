@@ -14,7 +14,7 @@ public class Camcontrol : MonoBehaviour
     {
         // Camera controls
         float targetX = Player.position.x;
-        float targetY = Player.position.y;
+        float targetY = Player.position.y+2;
         
         transform.position = new Vector3(targetX, targetY, transform.position.z);
     }
