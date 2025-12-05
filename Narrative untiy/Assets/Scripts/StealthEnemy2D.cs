@@ -61,6 +61,12 @@ public class StealthEnemy2D : MonoBehaviour
         lastXPos = transform.position.x;
     }
 
+    public void stopmoving(float s)
+    {
+        patrolSpeed = s;
+        chaseSpeed = s;
+    }
+
     private void Update()
     {
         // Hvis QTE kører, står han stille vandret
@@ -81,7 +87,7 @@ public class StealthEnemy2D : MonoBehaviour
                 break;
         }
 
-        AntiStuckCheck();
+        //AntiStuckCheck();
     }
 
     // ---------------- PATROL ----------------
@@ -134,7 +140,7 @@ public class StealthEnemy2D : MonoBehaviour
 
     // ---------------- ANTI-STUCK ----------------
 
-    private void AntiStuckCheck()
+    /*private void AntiStuckCheck()
     {
         stuckTimer += Time.deltaTime;
 
@@ -158,7 +164,7 @@ public class StealthEnemy2D : MonoBehaviour
             stuckTimer = 0f;
             lastXPos = transform.position.x;
         }
-    }
+    }*/
 
     // ---------------- HJÆLPEMETODER ----------------
 

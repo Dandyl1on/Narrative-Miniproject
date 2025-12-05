@@ -137,4 +137,25 @@ public class StoryController : MonoBehaviour
     {
         SceneManager.LoadScene("Nazgûls");
     }
+
+    public void stopNazguls(float speed)
+    {
+        Debug.Log("out loop stop");
+        foreach (var stealthEnemy in stealthEnemy)
+        {
+            Debug.Log("Stopped");
+            stealthEnemy.stopmoving(speed);
+        }
+    }
+
+    public void startNazguls(float speed)
+    {
+        Debug.Log("out loop start");
+
+        foreach (var stealthEnemy in stealthEnemy)
+        {
+            Debug.Log("Startted");
+            stealthEnemy.stopmoving(speed);
+        }
+    }
 }
