@@ -770,16 +770,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 24
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-1.59991455,\"yPos\":71.00008},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Refuse\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":368.8003,\"yPos\":75.0000458},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Accept\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-124.8,\"yPos\":374.999817},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Refuse\",\"parentUIDs\":[20],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":138.400055,\"yPos\":374.199646},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Okay.\",\"parentUIDs\":[20],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":207.200012,\"yPos\":-149.2},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Frodo,
-    the Ring you have is a large part of the dark lord Saurons soul!! \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":203.199951,\"yPos\":-47.2001343},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"If
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":314.200073,\"yPos\":242.200073},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Refuse\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":684.6003,\"yPos\":246.200043},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Accept\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":191,\"yPos\":546.1998},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Refuse\",\"parentUIDs\":[20],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":454.200073,\"yPos\":545.399658},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Okay.\",\"parentUIDs\":[20],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":523,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Frodo,
+    the Ring you have is a large part of the dark lord Saurons soul!! \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":518.999939,\"yPos\":123.999863},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"If
     he gets it, he will bring darkness to the world unless you throw it in the fires
-    of Mount Doom where it was made.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-2.39996338,\"yPos\":148.800186},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No,
+    of Mount Doom where it was made.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":313.400024,\"yPos\":320.000183},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No,
     i will not risk my life like that. It\xB4s a suicide mission. Give it to someone
-    else\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":371.2002,\"yPos\":156.800125},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"WHAT??
-    Then I must hurry to Mount Doom\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1.60003662,\"yPos\":260.000061},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"YOU
+    else\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":687.0002,\"yPos\":328.000122},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"WHAT??
+    Then I must hurry to Mount Doom\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":317.400024,\"yPos\":431.200073},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"YOU
     FOOL!! Only you can take the Ring to Mordor, everyone else will be corrupted
-    by the Rings power\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":137.6,\"yPos\":456.7995},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Okay.
-    If only i can do it.\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    by the Rings power\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gandalf\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":453.400024,\"yPos\":627.9995},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Okay.
+    If only i can do it.\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -19567,10 +19567,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 2
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":270.4,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Welcome
-    home brave travellers! Thank you for saving the world.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":270.000031,"yPos":136.8},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":523,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Welcome
+    home brave travellers! Thank you for saving the world.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":522.600037,"yPos":136.8},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"I
     know it''s been a hard and long journey, but it has all been worth it to see
-    the world as peaceful as ever.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+    the world as peaceful as ever.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -27941,9 +27941,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 4
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":309.5999,"yPos":64.3999939},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"In
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":523,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"In
     the ancient days, Sauron poured much of his power into the One Ring, for through
-    it he could rule all others, Elven, Dwarven and human.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Narrator","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":313.599976,"yPos":230.399963},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"His
+    it he could rule all others, Elven, Dwarven and human.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Narrator","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":527.000061,"yPos":187.999969},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"His
     eye searches for the treasure he lost. Should he regain the Ring, all free peoples
     would fall into darkness, and hope itself would wither","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Narrator","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -32617,9 +32617,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 6
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":440.800018,"yPos":213.400009},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"No
-    - Stay here and hide from Gandalf","parentUIDs":[0],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":159.199966,"yPos":216.6},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes
-    - Leave the shire and begin your adventure","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":4},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":true,"xPos":288.8,"yPos":82},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Are
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":675,"yPos":153.400009},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"No
+    - Stay here and hide from Gandalf","parentUIDs":[0],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":393.399963,"yPos":156.6},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes
+    - Leave the shire and begin your adventure","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":4},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":true,"xPos":523,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Are
     you sure you want to leave the shire?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sign","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -32862,7 +32862,7 @@ MonoBehaviour:
   NodeID: 0
   TMPFont: {fileID: 0}
   Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: fb2cc380669ae9f40940eac4250093b5, type: 3}
 --- !u!114 &1657314888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32881,7 +32881,7 @@ MonoBehaviour:
   NodeID: 10
   TMPFont: {fileID: 0}
   Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: fb2cc380669ae9f40940eac4250093b5, type: 3}
 --- !u!114 &1657314889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33050,7 +33050,7 @@ MonoBehaviour:
   NodeID: 23
   TMPFont: {fileID: 0}
   Icon: {fileID: 347059859425484950, guid: 99f8a45a5a7fc8744bfddc30d9a8bbfa, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: 4c882073c7de5734089712cb54063133, type: 3}
 --- !u!114 &1657314896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33131,7 +33131,7 @@ MonoBehaviour:
   NodeID: 20
   TMPFont: {fileID: 0}
   Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: fb2cc380669ae9f40940eac4250093b5, type: 3}
 --- !u!114 &1657314899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33150,7 +33150,7 @@ MonoBehaviour:
   NodeID: 18
   TMPFont: {fileID: 0}
   Icon: {fileID: -2468379580401391492, guid: 352df6f477845cf4ba1d5a1bfcf5eb18, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: 4c882073c7de5734089712cb54063133, type: 3}
 --- !u!114 &1657314900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33169,7 +33169,7 @@ MonoBehaviour:
   NodeID: 17
   TMPFont: {fileID: 0}
   Icon: {fileID: -3380270481081888905, guid: 8de0e0281a7f3624385af92c5e994615, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: 4c882073c7de5734089712cb54063133, type: 3}
 --- !u!1 &1709263929
 GameObject:
   m_ObjectHideFlags: 0
@@ -36552,7 +36552,7 @@ MonoBehaviour:
   NodeID: 1
   TMPFont: {fileID: 0}
   Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: fb2cc380669ae9f40940eac4250093b5, type: 3}
 --- !u!114 &1925114116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36571,7 +36571,7 @@ MonoBehaviour:
   NodeID: 0
   TMPFont: {fileID: 0}
   Icon: {fileID: 5824777375309991678, guid: a618305dc882d5d40ab74bd6cafe4f9e, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: fb2cc380669ae9f40940eac4250093b5, type: 3}
 --- !u!1 &1937044547
 GameObject:
   m_ObjectHideFlags: 0
