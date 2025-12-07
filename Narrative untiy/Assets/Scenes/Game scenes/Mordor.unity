@@ -2476,6 +2476,7 @@ GameObject:
   - component: {fileID: 735043991}
   - component: {fileID: 735043993}
   - component: {fileID: 735043992}
+  - component: {fileID: 735043994}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -2515,13 +2516,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2110690878}
         m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
-        m_MethodName: SetNormalSpeed
-        m_Mode: 1
+        m_MethodName: SetDialogueSpeed
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 3
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -2548,6 +2549,25 @@ MonoBehaviour:
   TMPFont: {fileID: 0}
   Icon: {fileID: -2468379580401391492, guid: 352df6f477845cf4ba1d5a1bfcf5eb18, type: 3}
   Audio: {fileID: 8300000, guid: 4c882073c7de5734089712cb54063133, type: 3}
+--- !u!114 &735043994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735043990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 2
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &790524935
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,7 +2614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 4
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":523,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":664,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I
     see you!!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Saroun","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1}]}'
   saveVersion: 110
   DefaultName: 
@@ -2606,19 +2626,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1543675094}
-        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
-        m_MethodName: OnQTESuccessHandler
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &797149295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3002,9 +3010,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
-  CurrentIDCounter: 2
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":526.2001,"yPos":174.2},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Walk","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":523,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    made it to mordor, gandalf would be proud","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4}]}'
+  CurrentIDCounter: 3
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":690.2001,"yPos":338.2},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Move
+    slowly","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":686,"yPos":186},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    made it to Mordor, but the pull is so hard to resist. He is so close, I can feel
+    him. But I have to keep going, I''m so close to the end.\nI have to keep away
+    from his sight and move unseen.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -3012,11 +3023,24 @@ MonoBehaviour:
   NodeSerializedDataList:
   - {fileID: 735043993}
   - {fileID: 735043992}
+  - {fileID: 735043994}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2110690878}
+        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
+        m_MethodName: SetDialogueSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 3
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &856006094
 GameObject:
   m_ObjectHideFlags: 0
@@ -35589,18 +35613,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 16
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":358.2,"yPos":216.599945},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Walk
-    more","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":661.399963,"yPos":200.599945},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Go
-    back and hand the ring to sauron","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":true,"xPos":522,"yPos":23},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    made it, this is mount doom","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":663.800049,"yPos":307.200073},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Frodo!
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":523.2,"yPos":316.599945},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Walk
+    more","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":826.399963,"yPos":300.599945},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Go
+    back and hand the ring to sauron","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":true,"xPos":687,"yPos":123},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    made it, this is mount doom","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":828.800049,"yPos":407.200073},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Frodo!
     what are you doing! dont go back now! you are so close!! the world is counting
     on you!!","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf
-    (magic message)","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":662.2,"yPos":427.7998},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Gandalf?!?
-    The ring! I can feel its corruption growing stronger","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":663.800049,"yPos":560.800232},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Resist
+    (magic message)","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":827.2,"yPos":527.7998},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Gandalf?!?
+    The ring! I can feel its corruption growing stronger","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":828.800049,"yPos":660.800232},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Resist
     it frodo! I know you can!!","parentUIDs":[9,14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf
-    (magic message)","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":348.599976,"yPos":319.1999},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Amazing
+    (magic message)","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":513.6,"yPos":419.1999},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Amazing
     Frodo, you are almost there","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Gandalf
-    (magic message)","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":346.199951,"yPos":425.599854},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Gandalf?!?
+    (magic message)","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":511.199951,"yPos":525.599854},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Gandalf?!?
     The ring! I can feel its corruption growing stronger","parentUIDs":[12],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.4}]}'
   saveVersion: 110
   DefaultName: 
@@ -35619,31 +35643,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2110690878}
-        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
-        m_MethodName: SetDialogueSpeed
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 434906227}
-        m_TargetAssemblyTypeName: SimpleQTE, Assembly-CSharp
-        m_MethodName: resetdeath
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &2060409474
 Transform:
   m_ObjectHideFlags: 0

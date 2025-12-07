@@ -1,5 +1,6 @@
 using DialogueEditor;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class StealthEnemy2D : MonoBehaviour
@@ -44,6 +45,9 @@ public class StealthEnemy2D : MonoBehaviour
 
     [SerializeField] private NPCConversation nazChoice;
 
+    public bool DisableChase;
+    public float chaseTimer = 0f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -69,6 +73,15 @@ public class StealthEnemy2D : MonoBehaviour
 
     private void Update()
     {
+        if (DisableChase)
+        {
+            chaseTimer -= Time.deltaTime;
+            if (chaseTimer <= 0)
+            {
+                DisableChase = false;
+            }
+        }
+        
         // Hvis QTE kører, står han stille vandret
         if (qteActive)
         {
@@ -205,12 +218,23 @@ public class StealthEnemy2D : MonoBehaviour
 
     public void OnPlayerSpotted()
     {
+        if (DisableChase)
+        {
+            return;
+        }
+        
         if (!qteActive && state == State.Patrol)
         {
             ConversationManager.Instance.StartConversation(nazChoice);
             Debug.Log("[StealthEnemy2D] Player spotted – switching to Chase.");
             state = State.Chase;
         }
+    }
+
+    public void DisableDetection(float duration)
+    {
+        DisableChase = true;
+        chaseTimer = duration;
     }
 
     // ---------------- KALDES FRA STORYCONTROLLER ----------------
@@ -223,7 +247,7 @@ public class StealthEnemy2D : MonoBehaviour
         Debug.Log("[StealthEnemy2D] ResetAfterQTE – back to patrol.");
         qteActive = false;
         state = State.Patrol;
-        currentPatrolTarget = patrolPointA;
+
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         // Reset anti-stuck timers

@@ -82,6 +82,7 @@ public class StoryController : MonoBehaviour
             foreach (var enemy in stealthEnemy)
             {
                 enemy.ResetAfterQTE();
+                enemy.DisableDetection(2f);
             }
         }
 
@@ -109,6 +110,7 @@ public class StoryController : MonoBehaviour
             foreach (var enemy in stealthEnemy)
             {
                 enemy.ResetAfterQTE();
+                
             }
         }
 
@@ -123,38 +125,52 @@ public class StoryController : MonoBehaviour
         // kan du lægge den logik her i stedet.
     }
 
+    public void enemychasepause(float time)
+    {
+        foreach (var enemy in stealthEnemy)
+        {
+            enemy.DisableDetection(time);
+        }
+    }
+
     public void setMountdoombool()
     {
         Mountdoombool = true;
     }
 
-    public void MountDoom()
-    {
-        SceneManager.LoadScene("Mount Doom");
-    }
+   
 
     public void Nazguls()
     {
         SceneManager.LoadScene("Nazgûls");
     }
+    
+    public void MountDoom()
+    {
+        SceneManager.LoadScene("Mount Doom");
+    }
 
+    public void Mordor()
+    {
+        SceneManager.LoadScene("Mordor");
+    }
     public void stopNazguls(float speed)
     {
-        Debug.Log("out loop stop");
+        
         foreach (var stealthEnemy in stealthEnemy)
         {
-            Debug.Log("Stopped");
+        
             stealthEnemy.stopmoving(speed);
         }
     }
 
     public void startNazguls(float speed)
     {
-        Debug.Log("out loop start");
+        
 
         foreach (var stealthEnemy in stealthEnemy)
         {
-            Debug.Log("Startted");
+            
             stealthEnemy.stopmoving(speed);
         }
     }
