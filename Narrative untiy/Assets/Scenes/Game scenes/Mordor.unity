@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sequence: WASD
-  totalTimeLimit: 10
+  totalTimeLimit: 6
   uiRoot: {fileID: 1561683714}
   promptText: {fileID: 1410450968}
   timerFill: {fileID: 865461116}

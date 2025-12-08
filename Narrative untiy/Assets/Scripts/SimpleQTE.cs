@@ -10,7 +10,7 @@ public class SimpleQTE : MonoBehaviour
     [SerializeField] private string sequence = "WASD";
 
     [Tooltip("Samlet tid (sekunder) til hele sekvensen")]
-    [SerializeField] private float totalTimeLimit = 10.0f;
+    [SerializeField] private float totalTimeLimit = 6.0f;
 
     [Header("UI (valgfrit)")]
     [SerializeField] private GameObject uiRoot;          // Panel der kan aktiveres/deaktiveres

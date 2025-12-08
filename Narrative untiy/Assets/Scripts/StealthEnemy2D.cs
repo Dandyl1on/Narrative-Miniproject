@@ -28,9 +28,7 @@ public class StealthEnemy2D : MonoBehaviour
     [Header("Sprite")]
     [SerializeField] private bool spriteFacesRightByDefault = true;
 
-    [Header("Anti-Stuck")]
-    [SerializeField] private float stuckCheckInterval = 1.0f;    // hvor tit vi tjekker
-    [SerializeField] private float stuckPositionTolerance = 0.02f; // hvor lidt bevægelse der skal til
+   
 
     private State state = State.Patrol;
     private Transform currentPatrolTarget;
@@ -38,10 +36,7 @@ public class StealthEnemy2D : MonoBehaviour
     private SpriteRenderer sprite;
 
     private bool qteActive = false;
-
-    // anti-stuck
-    private float stuckTimer = 0f;
-    private float lastXPos = 0f;
+    
 
     [SerializeField] private NPCConversation nazChoice;
 
@@ -62,7 +57,6 @@ public class StealthEnemy2D : MonoBehaviour
     private void Start()
     {
         currentPatrolTarget = patrolPointA;
-        lastXPos = transform.position.x;
     }
 
     public void stopmoving(float s)
@@ -150,35 +144,7 @@ public class StealthEnemy2D : MonoBehaviour
             StartChaseQTE();
         }
     }
-
-    // ---------------- ANTI-STUCK ----------------
-
-    /*private void AntiStuckCheck()
-    {
-        stuckTimer += Time.deltaTime;
-
-        if (stuckTimer >= stuckCheckInterval)
-        {
-            float deltaX = Mathf.Abs(transform.position.x - lastXPos);
-
-            // Hvis vi næsten ikke har bevæget os horisontalt, og der ikke er QTE
-            if (!qteActive && deltaX < stuckPositionTolerance)
-            {
-                Debug.Log("[StealthEnemy2D] Anti-stuck trigger – resetter til patrol og skubber videre.");
-
-                // Force tilbage til patrol
-                state = State.Patrol;
-                currentPatrolTarget = patrolPointA;
-
-                // Giv et lille skub til højre (kan justeres)
-                rb.linearVelocity = new Vector2(Mathf.Sign(patrolPointA.position.x - transform.position.x) * patrolSpeed, rb.linearVelocity.y);
-            }
-
-            stuckTimer = 0f;
-            lastXPos = transform.position.x;
-        }
-    }*/
-
+    
     // ---------------- HJÆLPEMETODER ----------------
 
     private void UpdateSpriteFlip(float dir)
@@ -251,7 +217,5 @@ public class StealthEnemy2D : MonoBehaviour
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         // Reset anti-stuck timers
-        stuckTimer = 0f;
-        lastXPos = transform.position.x;
     }
 }
