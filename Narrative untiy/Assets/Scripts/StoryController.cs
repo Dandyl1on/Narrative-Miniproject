@@ -1,3 +1,4 @@
+using System;
 using DialogueEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -21,8 +22,7 @@ public class StoryController : MonoBehaviour
 
     private bool Mountdoombool;
     
-
-
+    
     // --------------------------------------------------------------------
     // PUBLIC API – kaldes fra andre scripts (EyeScanner2D, Convo, osv.)
     // --------------------------------------------------------------------
@@ -138,6 +138,17 @@ public class StoryController : MonoBehaviour
         Mountdoombool = true;
     }
 
+    public void End()
+    {
+        SceneManager.LoadScene("End Hobbitton");
+    }
+
+    public void win()
+    {
+        SceneManager.LoadScene("WinScreen");
+    }
+
+    
    
 
     public void Nazguls()

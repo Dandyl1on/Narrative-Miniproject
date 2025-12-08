@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game scenes/Mount Doom.unity
     guid: f73f212f7abcda54f9a35815508c1aef
+  - enabled: 1
+    path: Assets/Scenes/Game scenes/End Hobbitton.unity
+    guid: 0d8b92c2fa8e61047b8f144be80cfe07
+  - enabled: 1
+    path: Assets/Scenes/Game scenes/WinScreen.unity
+    guid: 5a2a248d381bf7147809efeccbbc4f52
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

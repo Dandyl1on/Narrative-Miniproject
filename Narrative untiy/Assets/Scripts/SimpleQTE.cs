@@ -10,7 +10,7 @@ public class SimpleQTE : MonoBehaviour
     [SerializeField] private string sequence = "WASD";
 
     [Tooltip("Samlet tid (sekunder) til hele sekvensen")]
-    [SerializeField] private float totalTimeLimit = 3.0f;
+    [SerializeField] private float totalTimeLimit = 10.0f;
 
     [Header("UI (valgfrit)")]
     [SerializeField] private GameObject uiRoot;          // Panel der kan aktiveres/deaktiveres
@@ -26,6 +26,8 @@ public class SimpleQTE : MonoBehaviour
     private bool isActive = false;
 
     public bool Seconddeath;
+
+    public TextMeshProUGUI qtetext;
 
     public void setDeath()
     {
@@ -135,6 +137,7 @@ public class SimpleQTE : MonoBehaviour
     public void SetSequence(string newSequence)
     {
         sequence = newSequence.ToUpper();
+        qtetext.text = sequence;
     }
 
     private void Success()
