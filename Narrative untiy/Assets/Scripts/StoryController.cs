@@ -148,8 +148,11 @@ public class StoryController : MonoBehaviour
         SceneManager.LoadScene("WinScreen");
     }
 
-    
-   
+    public void RingInLava()
+    {
+        SceneManager.LoadScene("RingInLava");
+    }
+
 
     public void Nazguls()
     {
