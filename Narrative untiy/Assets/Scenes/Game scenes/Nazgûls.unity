@@ -17830,7 +17830,7 @@ MonoBehaviour:
   NodeID: 0
   TMPFont: {fileID: 0}
   Icon: {fileID: -6157464493297024893, guid: 9bffffa31134147469125cf8e3e864c4, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: d5e0702b33f3614459b8b9d601b8a7d2, type: 3}
 --- !u!114 &477799160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18472,7 +18472,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: bda7890f3a2ba1d44b9b40f44d0ab605, type: 3}
+  m_Resource: {fileID: 8300000, guid: 7d6484ef261c0f345ad1197c977f8322, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -18929,8 +18929,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 10
-  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":665.800049,\"yPos\":143.6},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Procceed
-    carefully\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":664,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"The
+  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":102.600067,\"yPos\":143.6},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Procceed
+    carefully\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":100.800018,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"The
     Nazg\xFBls are aproaching I think hiding behind the rocks is my best bet. I'll
     ready my sword just in case.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4}]}"
   saveVersion: 110
@@ -25206,8 +25206,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 6
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":420.5,"yPos":381},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Continue
-    to Mordor","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":true,"xPos":419.5,"yPos":215},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"A
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":101.800018,"yPos":188},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Continue
+    to Mordor","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":true,"xPos":100.800018,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"A
     whisper curls at the edge of your thoughts: promises of safety, of hidden strength,
     of a burden lifted if only you would slip it on your finger. Every step toward
     Mordor brings its voice nearer, clearer, as if it remembers the land where it
@@ -41067,7 +41067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 5
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":693,\"yPos\":181},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Some
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":100.800018,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Some
     men fell to the power of Saurons will. They became endless hunters for him, searching
     for the Ring. They became known as the Nazg\xFBls\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Narrator\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
@@ -44238,11 +44238,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 12
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":102.399948,\"yPos\":78.99957},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fight\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":507.399445,\"yPos\":83.80005},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Run\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":289.599976,\"yPos\":-52.3999634},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"OH
-    NO a nazg\xFBl has spotted you, what will you do?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":84.79996,\"yPos\":288.002747},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    dont think that killed them... They are just shadows after all\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":505.598755,\"yPos\":292.800842},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":38.59999,\"yPos\":153.399536},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fight\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":443.5995,\"yPos\":158.200012},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Run\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":225.800018,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"OH
+    NO a nazg\xFBl has spotted you, what will you do?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.5},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":21,\"yPos\":362.4027},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    dont think that killed them... They are just shadows after all\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":441.7988,\"yPos\":367.2008},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
     think....... I lost.......... Lost them\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Frodo
-    (exhausted)\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":80.00006,\"yPos\":168.8},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":512.000244,\"yPos\":165.600021},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    (exhausted)\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0.4},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":16.2001038,\"yPos\":243.199966},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":448.2003,\"yPos\":239.999985},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -44259,43 +44259,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 264417877}
-        m_TargetAssemblyTypeName: Frodowalking, Assembly-CSharp
-        m_MethodName: SetDamagedSpeed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1868326116}
-        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
-        m_MethodName: startNazguls
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 6.5
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1868326116}
-        m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
-        m_MethodName: enemychasepause
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 5
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1941553425
 GameObject:
   m_ObjectHideFlags: 0
