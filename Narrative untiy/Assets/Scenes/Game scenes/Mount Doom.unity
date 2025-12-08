@@ -837,12 +837,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 15
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":55.3997955,"yPos":381.399933},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Throw
-    the Ring in the fire","parentUIDs":[14],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":390.200256,"yPos":386.599945},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Put
-    on the Ring and keep it for yourself","parentUIDs":[14],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":true,"xPos":225.800018,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":151.799789,"yPos":381.3999},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Throw
+    the Ring in the fire","parentUIDs":[14],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":486.60025,"yPos":386.5999},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Put
+    on the Ring and keep it for yourself","parentUIDs":[14],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":true,"xPos":322.2,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I
     finally reached the fires of Mount Doom. I just need to throw the Ring in and
-    it will all be over...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":214.599945,"yPos":138.400055},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"But...
-    I don''t want to! The Ring is mine. The power is mine. The world is miiiiiiineee.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":12},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":207.3999,"yPos":255.999847},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Put
+    it will all be over...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":310.999939,"yPos":138.400055},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"But...
+    I don''t want to! The Ring is mine. The power is mine. The world is miiiiiiineee.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Frodo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":12},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":303.7999,"yPos":255.999847},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Put
     me ooooonn. You can have everything you want if you just give in.","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"The
     Ring","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -38131,7 +38131,7 @@ Transform:
   m_GameObject: {fileID: 1885623208}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -95.6, y: -15.3, z: 0}
+  m_LocalPosition: {x: -95.6, y: -12.17, z: 0}
   m_LocalScale: {x: 4.41522, y: 7.81388, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38194,7 +38194,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 0.11120068}
+  m_Size: {x: 1, y: 1.24}
   m_EdgeRadius: 0
 --- !u!1 &1898621000
 GameObject:
@@ -55666,7 +55666,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1914302070}
         m_TargetAssemblyTypeName: StoryController, Assembly-CSharp
-        m_MethodName: OnQTEFailHandler
+        m_MethodName: Corropted
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

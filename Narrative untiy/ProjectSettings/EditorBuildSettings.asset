@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game scenes/RingInLava.unity
     guid: 355cc2998aa853442982a451f981357b
+  - enabled: 1
+    path: Assets/Scenes/Game scenes/Corropted.unity
+    guid: eb13b1d7c7a8f6a44968691e474702e0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

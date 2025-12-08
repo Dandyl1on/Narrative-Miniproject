@@ -153,6 +153,11 @@ public class StoryController : MonoBehaviour
         SceneManager.LoadScene("RingInLava");
     }
 
+    public void Corropted()
+    {
+        SceneManager.LoadScene("Corropted");
+    }
+
 
     public void Nazguls()
     {
